@@ -180,6 +180,10 @@
 	.rbx-header .rbx-navbar li a[href="/develop"]:after {
 		line-height: 16px;
 	}
+	.avatar-editor-header .catalog-header div:nth-child(n+1):after {
+		font-size: 12px;
+		font-weight: 400;
+	}
 }
 
 .owl-carousel .owl-item {
@@ -652,6 +656,11 @@ body[data-internal-page-name="Profile"] .rbx-divider {
 
 .light-theme .tooltip .tooltip-inner, .dark-theme .tooltip .tooltip-inner {
 	border-radius: 4px
+}
+
+.sg-navigation {
+    z-index: 1030;
+    position: relative;
 }
 
 @media (max-width: 767px) {
