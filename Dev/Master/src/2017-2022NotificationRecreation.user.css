@@ -1,0 +1,128 @@
+/*/Reverts new notification/*/
+
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body, .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .container-empty, .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-loading {
+	background-color: #fff;
+	color: #393b3d;
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .container-empty, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-loading {
+	background-color: #393b3d;
+	color: #fff;
+}
+
+.new-notification-stream-2022.notification-stream-base, .new-notification-stream-2022 .notification-stream-body, .new-notification-stream-2022 .notification-stream-loading, .new-notification-stream-2022 .notification-stream-body .container-empty, .new-notification-stream-2022 .notification-stream-header, .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-scrollbar {
+	border-radius: 0
+}
+
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view {
+    box-shadow: none;
+}
+.light-theme .notification-stream-container .notification-content-view {
+    background-color: #fff;
+    color: #393b3d;
+}
+.dark-theme .notification-stream-container .notification-content-view {
+    background-color: #393b3d;
+    color: #e6e6e6;
+}
+
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list {
+	background: transparent;
+}
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list {
+	padding: 0;
+    display: block;
+    border-radius: 0;
+}
+
+.new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item {
+	border-bottom: 1px solid #e3e3e3;
+}
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item {
+	border-color: #bdbebe;
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item {
+	border-color: #656668;
+}
+
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item .notification-action-container button, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper .notification-action-container button {
+    width: auto;
+	min-width: auto;
+    height: auto;
+}
+
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item .notification-action-container, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper .notification-action-container {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: auto;
+	margin: 0;
+}
+
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item .notification-item-content .notification-data-container, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper .notification-item-content .notification-data-container {
+	width: 80%;
+	width: calc(100% - 90px);
+	min-height: 48px;
+	padding: 0 0 0 12px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper {
+	border-radius: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item .notification-action-container a, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper .notification-action-container a {
+    display: block;
+    line-height: 100%;
+}
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item .notification-action-container .btn-full-width, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper .notification-action-container .btn-full-width {
+	min-width: auto
+}
+
+.new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item .notification-action-container .btn-primary-xs, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper .notification-action-container .btn-primary-xs {
+    margin: 0;
+}
+.notification-stream-body .text[ng-bind="'Label.AllCaughtUp' | translate"], .new-notification-stream-2022 .text[ng-bind="'Label.AllCaughtUp' | translate"] {
+	font-size: 0;
+}
+.notification-stream-body .text[ng-bind="'Label.AllCaughtUp' | translate"]:after, .new-notification-stream-2022 .text[ng-bind="'Label.AllCaughtUp' | translate"]:after {
+	content: 'No Notifications';
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4em;
+	cursor: text;
+}
+
+.new-notification-stream-2022 .icon-spot-success-2xl {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAABICAYAAAEG385UAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABV5JREFUeNpiYBhsYMeOHf+R+SwUGJQApOajizMSodEBSO2H8T08PBhp6kV0wESKIYQMGzgXkuI6RnIMwhcxAAE06BJ1AroYCwURkwhN2AsoCkOKwo+cdMdI1xgmx4XEZj0DqniZnEgBCCDGAUy/84lxJAsdHQULuQ9ABwkC+SD2fEIhyDJQpQDQYQvQMy0tQsUBX8oHygnQpM6gZrak1IFMDIMcMFE5RNdTO0pZqJzwAxlGGgAIoEGPGAdB7gcX3IO1yfYfW7ON7iGIXPfCqjZYMxBaowxsOQh1RCKWKJ4PZL8flCFIt0wCtPw+kFLAIb0A6KDEQZvIQY4fbSwMNGChZiiCMgA6f8AL2tH2IA1y9f9B60BY5T+YG6yMgzoX4wAbhnWDFSCARtFQbPEPUJ0CanYKUDt/M47EVIM2+Eew0zFiAhBXKkPqpVEt4IZtCsQVSKNZmAopcNhVIkAPnwdSBlQwShAYSB8Gwg8sAxh4sKEIisoiaEP0/UAlhoHszSlAs9eCoVxsDIruMHQiqgEPvwC6FAMrfyAByyCKzHpgoNTj6QPuh86LwoDhaAAiaskP+MowoPwEIDVhMGZhFoZBDEATkkAqAJTagIF4YTQASa9dYeD8YG2zDtoAHCrLwgayFl6A1B4ku/Ye6AAc6J6IALQRTAnYMLo2YggDgADsXIsNgjAQDUwgG+gIbCAb4AY6iSMwgm7gCt1AR2AUuaSNSKDEfrwrfRcSo1jSvLzeu7av4EJknAP/nG9t64HOCxplRmSxKXYHBnoU6j41ZwHw/Ar2HJb0v/JbaP/O1nLgzpbfYpifilyG6IoHBSrsyTKosIVll5j7LjnUgV3MhxcCWEMugrND016zS2U5lQu0lEXxGkCscwTQ5Kt+AODg0J5YazwwDRcT2XOgC3i6HQmDOUhx4+p/0iIyUtc9AEw0AOAWACQfzHiHbe779P9SAJSyL0yemOvE+0K/0eknerfLceKbIRAVdw0oaQjPHSaptFA0C7WfAgM/anpauS92zg4RAYAYwkvKTOZzcmWJtm5IZuBTf7baJwgAPaIFgL/H+NxHLbWTkg2WVQpDI2kVlmCwLBMHwQjNnav/nCvSj1DiwDlTYWOgru1CvFAhiVyJQMSJtwDtnY9Ng0AUh2niAHUD3MBuIJMIExhGcAJ1AnGCsoFsoCMwQkeQFx/xSqlUBO64+75IYkovXuCX9+fu+Y4fAAiXDY/AL4Z6kwyweNNTlqP9I4/GN9DLsYAwp3VMo/4irMxW5xQEiPAKm3NDgH7Ecr2xm8vCa7niVTsdyz1dKMJ8bcLDAnrqQteWBWMB/Yvd/mI5j8RHFgyTxoBrgHVAt2PAS9bzrFguLOD/LcxW3Zvtgs1SXeohxPcQaq+dfeRepXCQrQ83AYqv25Whjr77Ah8WnodYYCkJjY2P7Z6/hwAXefHdZjLXNt3fpKewk4Ssj1BjLwQIgADBNuyE/MRi5nFi4pZlaaTUe5IxS/LSLgwfdTfTnitmC5HH5noW967/JS47E3fG/ZvmXs1TR4AmZiwoQtt3etac+26bSZv09bwxxxJ3IsCTZCRRayaW6kEt1tYQTdVcL329fXRftmjGxio+GRsbX/nUsQVPGgEOCbFSsY0ZK5Yw4ymShAACBMAFz5EtS1b7Hp2WSkmcmLh61CcC9IePM5+3e7vUWOKCZ6UceQ8Q4CRZspRM7Tpik993nCSLC15KhBLnITYs4CjqTlKRWkxo0t/mhgX0k0yz2JZXPQpC9m/LJcqzVHjyN+OeuQVFqCX5WxXhrSNTEpeehFibGPySge793ken+7dzhwFVc725cm4MAAAszRcM4Fb4VFUHMgAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0;
+	margin: 0 auto 12px;
+	width: 140px;
+	height: 60px;
+}
+.light-theme .new-notification-stream-2022 .icon-spot-success-2xl {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSIzNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHN0eWxlPi5zdDB7b3BhY2l0eTouMX0uc3QwLC5zdDJ7ZmlsbDpub25lO3N0cm9rZTojMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDtlbmFibGUtYmFja2dyb3VuZDpuZXd9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTIgN2g0bC00IDRoNE01OSAzaDZsLTYgNmg2Ii8+PGcgb3BhY2l0eT0iLjEiPjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik00NiAzM0gzNGMtMS43IDAtMy0xLjMtMy0zVjE2YzAtMS43IDEuMy0zIDMtM2gxMmMxLjcgMCAzIDEuMyAzIDN2MTRjMCAxLjctMS4zIDMtMyAzek0zOCAyMC4yYy0xLjEgMS4xLTIuOSAxLjEtNCAwTTQ1LjYgMjAuMmMtMS4xIDEuMS0yLjkgMS4xLTQgMCIvPjxjaXJjbGUgY2xhc3M9InN0MiIgY3g9IjQwIiBjeT0iMjciIHI9IjEiLz48L2c+PC9zdmc+)
+}
+.dark-theme .new-notification-stream-2022 .icon-spot-success-2xl {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHdpZHRoPSI4MCIgaGVpZ2h0PSIzNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHN0eWxlPi5zdDB7b3BhY2l0eTouMztmaWxsOm5vbmU7c3Ryb2tlOiMwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTUyIDdoNGwtNCA0aDRNNTkgM2g2bC02IDZoNk00NiAzM0gzNGMtMS43IDAtMy0xLjMtMy0zVjE2YzAtMS43IDEuMy0zIDMtM2gxMmMxLjcgMCAzIDEuMyAzIDN2MTRjMCAxLjctMS4zIDMtMyAzek0zOCAyMC4yYy0xLjEgMS4xLTIuOSAxLjEtNCAwTTQ1LjYgMjAuMmMtMS4xIDEuMS0yLjkgMS4xLTQgMCIvPjxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjQwIiBjeT0iMjciIHI9IjEiLz48L3N2Zz4=)
+}
+
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .mCSB_dragger_bar {
+    background-color: rgba(25,25,25,.3);
+}
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .mCSB_dragger_bar:hover {
+    background-color: rgba(25,25,25,.5);
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .mCSB_dragger_bar {
+    background-color: rgba(230,230,230,.3);
+}
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .mCSB_dragger_bar:hover {
+    background-color: rgba(230,230,230,.5);
+}

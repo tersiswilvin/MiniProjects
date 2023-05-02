@@ -1,0 +1,64 @@
+/*/ Ban Screen /*/
+
+.not-approved-page-content h3, .not-approved-page-content p {
+	color: #343434;
+	font-family: 'Source Sans Pro',Arial,Helvetica,sans-serif;
+}
+
+.not-approved-page-content {
+	border: solid 1px #000;
+    margin: 0 auto;
+    padding: 30px;
+	margin-top: 35px;
+    max-width: 500px;
+	background-color: white;
+}
+.not-approved-page-content .not-approved-page, .not-approved-page-content .not-approved-page .action-buttons {
+	padding: 0
+}
+.not-approved-page-content .not-approved-page .message-container .error-title {
+	display: inline-block;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+	font-size: 30px;
+    font-weight: normal;
+    color: #343434;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+.not-approved-page-content .not-approved-page .action-buttons button {
+	margin: 12px;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #EFEFEF;
+    color: #000000;
+    font-weight: 100;
+	line-height: normal;
+	font-size: 13px;
+    padding: 1px 6px;
+    border: 1px solid #767676;
+	min-width: auto;
+    border-radius: 2px
+}
+.not-approved-page-content .not-approved-page .action-buttons button:hover {
+	background-color: #E5E5E5;
+	border-color: #4F4F4F;
+}
+.not-approved-page-content .not-approved-page .action-buttons button:active {
+	background-color: #F5F5F5;
+	border-color: #8D8D8D;
+}
+.not-approved-page-content .not-approved-page .message-container .message-section {
+	margin: 12px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.not-approved-page-content .not-approved-page .message-container .message-section b {
+	font-weight: bold;
+}
+.not-approved-page-content .not-approved-page .message-container .message-section a:link, .not-approved-page-content .not-approved-page .message-container .message-section a:visited, .not-approved-page-content .not-approved-page .message-container .message-section a:hover {
+	color: #0055B3
+}
