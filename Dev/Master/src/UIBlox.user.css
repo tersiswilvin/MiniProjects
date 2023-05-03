@@ -121,7 +121,7 @@
 .dark-theme [data-rblx-verified-badge-icon] img {
 	filter: grayscale(100%) brightness(1.5)
 }
-.avatar-editor-header .catalog-header div:nth-child(n+1) {
+.avatar-editor-header .catalog-header div:nth-child(n+1), .container-header .header-content .get-more-text {
     font-size: 0;
 }
 .avatar-editor-header .catalog-header div:nth-child(n+1):after {
@@ -130,6 +130,20 @@
     font-weight: 400;
     line-height: 1.4em;
 	cursor: text;
+}
+.container-header .header-content .get-more-text {
+    white-space: normal;
+}
+.container-header .header-content .get-more-text:after {
+    content: 'Explore the marketplace to find more Accessories!';
+    font-size: 12px;
+    font-weight: 400;
+	line-height: 1.4em;
+    float: right;
+    display: block;
+    width: 205px;
+    text-align: right;
+    white-space: break-spaces;
 }
 #navigation-container:not(.ixp-marketplace-rename-treatment) .ixp-marketplace-renamed-control {
     display: none;
@@ -379,7 +393,7 @@ button.close {
     width: 100%;
     text-align: center;
 	position: relative;
-	    font-size: 20px;
+	font-size: 20px;
     top: -4px;
 }
 .modal-dialog .modal-content .modal-body p {
