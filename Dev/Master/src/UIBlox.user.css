@@ -121,20 +121,20 @@
 .dark-theme [data-rblx-verified-badge-icon] img {
 	filter: grayscale(100%) brightness(1.5)
 }
-.avatar-editor-header .catalog-header div:nth-child(n+1), .container-header .header-content .get-more-text {
+#navigation-container.ixp-marketplace-rename-control ~ .container-main .avatar-editor-header .catalog-header div:nth-child(n+1), #navigation-container.ixp-marketplace-rename-control ~ .container-main .container-header .header-content .get-more-text {
     font-size: 0;
 }
-.avatar-editor-header .catalog-header div:nth-child(n+1):after {
+#navigation-container.ixp-marketplace-rename-control ~ .container-main .avatar-editor-header .catalog-header div:nth-child(n+1):after {
     content: 'Explore the marketplace to find more clothes!';
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4em;
 	cursor: text;
 }
-.container-header .header-content .get-more-text {
+#navigation-container.ixp-marketplace-rename-control ~ .container-main .container-header .header-content .get-more-text {
     white-space: normal;
 }
-.container-header .header-content .get-more-text:after {
+#navigation-container.ixp-marketplace-rename-control ~ .container-main .container-header .header-content .get-more-text:after {
     content: 'Explore the marketplace to find more Accessories!';
     font-size: 12px;
     font-weight: 400;
@@ -144,6 +144,7 @@
     width: 205px;
     text-align: right;
     white-space: break-spaces;
+	cursor: text;
 }
 #navigation-container:not(.ixp-marketplace-rename-treatment) .ixp-marketplace-renamed-control {
     display: none;
@@ -151,12 +152,12 @@
 #navigation-container:not(.ixp-marketplace-rename-treatment) .ixp-marketplace-renamed-treatment {
     display: block;
 }
-.catalog-container .search-bars h1 a {
+#navigation-container.ixp-marketplace-rename-control ~ .container-main .catalog-container .search-bars h1 a {
     font-size: 0px;
 	height: 39px;
     display: block;
 }
-.catalog-container .search-bars h1 a:after {
+#navigation-container.ixp-marketplace-rename-control ~ .container-main .catalog-container .search-bars h1 a:after {
     content: 'Marketplace';
     font-size: 32px;
     font-weight: 800;
@@ -194,7 +195,7 @@
 	.rbx-header .rbx-navbar li a[href="/develop"]:after {
 		line-height: 16px;
 	}
-	.avatar-editor-header .catalog-header div:nth-child(n+1):after {
+	#navigation-container.ixp-marketplace-rename-control ~ .container-main .avatar-editor-header .catalog-header div:nth-child(n+1):after {
 		font-size: 12px;
 		font-weight: 400;
 	}
@@ -668,13 +669,129 @@ body[data-internal-page-name="Profile"] .rbx-divider {
     background-color: rgba(255,255,255,0.3);
 }
 
-.light-theme .tooltip .tooltip-inner, .dark-theme .tooltip .tooltip-inner {
+.light-theme .tooltip .tooltip-inner {
+    background-color: #565656;
+    color: #fff;
 	border-radius: 4px
+}
+.dark-theme .tooltip .tooltip-inner {
+    background-color: #c7cbce;
+    color: #606162;
+	border-radius: 4px
+}
+
+.light-theme .tooltip.bottom-left .tooltip-arrow, .light-theme .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #565656
+}
+.dark-theme .tooltip.bottom-left .tooltip-arrow, .dark-theme .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #c7cbce;
 }
 
 .sg-navigation {
     z-index: 1030;
     position: relative;
+}
+
+.light-theme .notification, .light-theme .notification-blue, .light-theme .notification-red {
+    font-weight: 500;
+    font-size: 0.75rem;
+    min-width: 20px;
+    line-height: 1;
+    border-radius: 10px;
+    background-color: rgb(57, 59, 61);
+    color: rgba(255, 255, 255, 0.87);
+}
+.dark-theme .notification, .dark-theme .notification-blue, .dark-theme .notification-red {
+	display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.75rem;
+    min-width: 20px;
+    line-height: 1;
+    padding: 6px 0;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+    color: rgba(0, 0, 0, 0.87);
+}
+.rbx-header .rbx-navbar-icon-group>li>button .notification-red {
+    min-width: 20px;
+}
+
+.light-theme .alert-info {
+    border-radius: 4px;
+    box-shadow: none;
+    display: flex;
+	flex-flow: row wrap;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    background-color: rgb(86, 64, 4);
+    color: rgb(251, 227, 162);
+}
+.light-theme .alert-success, .dark-theme .alert-success {
+    border-radius: 4px;
+    box-shadow: none;
+    display: flex;
+	flex-flow: row wrap;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    background-color: rgb(0, 53, 29);
+    color: rgb(92, 255, 181);
+}
+.light-theme .alert-loading, .dark-theme .alert-loading {
+    border-radius: 4px;
+    box-shadow: none;
+    display: flex;
+	flex-flow: row wrap;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    background-color: rgb(0, 46, 73);
+    color: rgb(128, 208, 255);
+}
+.light-theme .alert-warning, .dark-theme .alert-warning {
+    border-radius: 4px;
+    box-shadow: none;
+    display: flex;
+	flex-flow: row wrap;
+    -webkit-box-pack: center;
+    place-content: center;
+    -webkit-box-align: center;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    background-color: rgb(81, 9, 5);
+    color: rgb(249, 162, 158);
+}
+
+.light-theme .slide-switcher .slide-item-container .slide-item-container-right .slide-item-description {
+    border-color: #bdbebe;
+}
+.dark-theme .slide-switcher .slide-item-container .slide-item-container-right .slide-item-description {
+    border-color: #656668;
 }
 
 @media (max-width: 767px) {
