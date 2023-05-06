@@ -9,7 +9,7 @@
 	color: #fff;
 }
 
-.new-notification-stream-2022.notification-stream-base, .new-notification-stream-2022 .notification-stream-body, .new-notification-stream-2022 .notification-stream-loading, .new-notification-stream-2022 .notification-stream-body .container-empty, .new-notification-stream-2022 .notification-stream-header, .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-scrollbar {
+.new-notification-stream-2022.notification-stream-base, .new-notification-stream-2022 .notification-stream-body, .new-notification-stream-2022 .notification-stream-loading, .new-notification-stream-2022 .notification-stream-body .container-empty, .new-notification-stream-2022 .notification-stream-header, .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-scrollbar, .new-notification-stream-2022 .notification-stream-container .notification-content-view, .new-notification-stream-2022 .meta-actions-list-base, .new-notification-stream-2022 .notification-stream-body, .new-notification-stream-2022 .notification-stream-body .container-empty {
 	border-radius: 0
 }
 
@@ -25,6 +25,10 @@
     color: #e6e6e6;
 }
 
+.light-theme .meta-actions-list-base .meta-actions-overlay, .dark-theme .meta-actions-list-base .meta-actions-overlay {
+	border-radius: 3px;
+}
+
 .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list {
 	background: transparent;
 }
@@ -34,13 +38,13 @@
     border-radius: 0;
 }
 
-.new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item {
+.new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item, .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper {
 	border-bottom: 1px solid #e3e3e3;
 }
-.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item {
+.light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item, .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper {
 	border-color: #bdbebe;
 }
-.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item {
+.dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item, .dark-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper {
 	border-color: #656668;
 }
 
@@ -68,6 +72,22 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.legacy-notif-base .button-row-container {
+	width: auto;
+	height: auto;
+	display: block;
+	position: relative;
+	margin: 0;
+}
+.legacy-notif-base .notif-row-left-button, .legacy-notif-base .notif-row-right-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	padding: 4px;
 }
 
 .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .notification-stream-item, .new-notification-stream-2022 .notification-stream-body .notification-stream-data .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper {
