@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Roblox Legacy Easter
-@version      20230511.1.0
+@version      20230509.1.1
 @namespace    userstyles.world/user/tersiswilvin
 @description  A fixed & compatible roblox+ easter theme for Roblox Legacy Old Theme
 @author       tersiswilvin
@@ -41,7 +41,7 @@
 		margin-left: -6px
 	}
 	
-	.light-theme .dialog-container .dialog-header .dialog-header-title,.light-theme .dialog-container .dialog-header,.light-theme .chat-main .chat-header, .light-theme .chat-container .chat-main .chat-header, .light-theme .chat-windows-header, .light-theme .dialogs .dialog-container .dialog-header, .light-theme .tableHeaderText,.light-theme .forum-table-header,.light-theme .forum-table-header th,.light-theme .forum-table-footer,.light-theme #header,.light-theme #header .nav.rbx-navbar a,.light-theme #header .nav.rbx-navbar a:visited{
+	.light-theme .dialog-container .dialog-header .dialog-header-title,.light-theme .dialog-container .dialog-header,.light-theme .chat-main .chat-header, .light-theme .chat-container .chat-main .chat-header, .light-theme .chat-windows-header, .light-theme .dialogs .dialog-container .dialog-header, .light-theme .tableHeaderText,.light-theme .forum-table-header,.light-theme .forum-table-header th,.light-theme .forum-table-footer,.light-theme #header,.light-theme #header .nav.rbx-navbar a,.light-theme #header .nav.rbx-navbar a:visited, .light-theme .game-card-friend-activity, .light-theme .game-card-native-ad, .dark-theme .game-card-friend-activity, .dark-theme .game-card-native-ad{
 		background-color: rgb(220, 126, 207);
 	}
 	.dark-theme .dialog-container .dialog-header .dialog-header-title,.dark-theme .dialog-container .dialog-header,.dark-theme .chat-main .chat-header, .dark-theme .chat-container .chat-main .chat-header, .dark-theme .chat-windows-header, .dark-theme .dialogs .dialog-container .dialog-header, .dark-theme .tableHeaderText,.dark-theme .forum-table-header,.dark-theme .forum-table-header th,.dark-theme .forum-table-footer,.dark-theme #header,.dark-theme #header .nav.rbx-navbar a,.dark-theme #header .nav.rbx-navbar a:visited {
@@ -200,8 +200,9 @@
 	}
 	
 	.rbx-header .rbx-navbar-icon-group .age-bracket-label .age-bracket-label-username:before, .light-theme .rbx-header .rbx-navbar-icon-group .age-bracket-label .age-bracket-label-username:before, .dark-theme .rbx-header .rbx-navbar-icon-group .age-bracket-label .age-bracket-label-username:before {
-		color: transparent;
-		background: transparent;
+		color: rgb(220, 126, 207);
+		background: rgb(220, 126, 207);
+		border-radius: 100px
 	}
 		
 	& when (@SourceSansPro = 1) {

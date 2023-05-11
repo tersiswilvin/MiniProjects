@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Roblox Legacy Red
-@version      20230511.1.1
+@version      20230511.1.2
 @namespace    userstyles.world/user/tersiswilvin
 @description  A compatible red theme for Roblox Legacy Old Theme
 @author       tersiswilvin
@@ -27,6 +27,10 @@
 }
 .light-theme .breadcrumb-container li.breadcrumb-filter:hover, .dark-theme .breadcrumb-container li.breadcrumb-filter:hover {
     background-color: #ea0000;
+}
+
+.light-theme .notification-blue, .dark-theme .notification-blue {
+    background-color: #be0000;
 }
 
 & when (@SourceSansPro = 0) {
