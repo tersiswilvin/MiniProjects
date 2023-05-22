@@ -30,7 +30,7 @@ html .btr-feedtitle, .light-theme .rbx-header .navbar-search .navbar-search-opti
 		color: var(--btr-theme-text-disabled);
 	}
 
-.light-theme .text-secondary, .light-theme .pill-toggle label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.unread, .light-theme .text-link-secondary, .catalog-content .search-options .panel-heading, .small.text.menu-link.text-link-secondary.ng-binding, .light-theme .text-info, .light-theme .no-servers-message, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link, .light-theme .text-muted, .light-theme .item-card-label, .light-theme .game-card-experimental, .light-theme .game-card-container .game-card-name-secondary, .light-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message-author, html .btr-feeddesc, html .btr-feedcreator, html .btr-feeddate, html .light-theme .item-card-label, .light-theme .dialogs .dialog-container .dialog-message-container .link-card-details .link-card-description {
+.light-theme .text-secondary, .light-theme .pill-toggle label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.unread, .light-theme .text-link-secondary, .catalog-content .search-options .panel-heading, .small.text.menu-link.text-link-secondary.ng-binding, .light-theme .text-info, .light-theme .no-servers-message, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link, .light-theme .text-muted, .light-theme .item-card-label, .light-theme .game-card-experimental, .light-theme .game-card-container .game-card-name-secondary, .light-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message-author, html .btr-feeddesc, html .btr-feedcreator, html .btr-feeddate, html .light-theme .item-card-label, .light-theme .dialogs .dialog-container .dialog-message-container .link-card-details .link-card-description, .light-theme .text-label, .light-theme .mobile-search-options .text-label, .light-theme .text-label .text-robux-tile[ng-class="{'text-robux-tile': item.Product.IsFree}"], .rbx-left-col:after {
     color: var(--btr-theme-text-disabled);
 }
 
@@ -82,7 +82,7 @@ html .light-theme .dropdown-menu,
 html .light-theme .open .dropdown-menu,
 html .light-theme .popover,
 html .light-theme .modal-dialog .modal-content,
-html .light-theme .notification-stream-body, .light-theme .item-card-container, .light-theme .item-card-container .item-card-thumb-container, .light-theme .item-card-container .item-card-caption, .btr-catalog.light-theme .btr-item-card-more, .light-theme .rbx-tabs-vertical .category-tabs .menu-vertical, .light-theme .stack .card-list .card-item, .light-theme .voting-panel .users-vote .vote-details .vote-container .vote-mask .segment, .light-theme .rbx-tabs-horizontal .nav-tabs, .light-theme .rbx-tab .rbx-tab-heading, .light-theme .slide-switcher .slide-item-container .slide-item-container-right, .light-theme .premium-container .robux-body .robux-row, .light-theme .messages .messageDivider.message-news, .light-theme .item-details-thumbnail-container .thumbnail-holder, .light-theme .menu-vertical, .light-theme .menu-vertical .menu-option .menu-secondary-option.active, .light-theme .menu-vertical .menu-option .menu-secondary-option:active, .light-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a, .light-theme .sg-container, .light-theme .input-field, .light-theme input, .light-theme #sandbox .catalog-tabs {
+html .light-theme .notification-stream-body, .light-theme .item-card-container, .light-theme .item-card-container .item-card-thumb-container, .light-theme .item-card-container .item-card-caption, .btr-catalog.light-theme .btr-item-card-more, .light-theme .rbx-tabs-vertical .category-tabs .menu-vertical, .light-theme .stack .card-list .card-item, .light-theme .voting-panel .users-vote .vote-details .vote-container .vote-mask .segment, .light-theme .rbx-tabs-horizontal .nav-tabs, .light-theme .rbx-tab .rbx-tab-heading, .light-theme .slide-switcher .slide-item-container .slide-item-container-right, .light-theme .premium-container .robux-body .robux-row, .light-theme .messages .messageDivider.message-news, .light-theme .item-details-thumbnail-container .thumbnail-holder, .light-theme .menu-vertical, .light-theme .menu-vertical .menu-option .menu-secondary-option.active, .light-theme .menu-vertical .menu-option .menu-secondary-option:active, .light-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a, .light-theme .sg-container, .light-theme .input-field, .light-theme input, .light-theme #sandbox .catalog-tabs, .light-theme .pill-toggle {
 	background-color: var(--btr-theme-item);
 }
 
@@ -221,6 +221,12 @@ html .light-theme #header .btr-nav-notif {
 .light-theme .btn-toggle .toggle-flip {
     background-color: var(--btr-theme-item);
 }
+.light-theme .btn-toggle.disabled .toggle-flip, .light-theme .btn-toggle[disabled] .toggle-flip {
+    background-color: var(--btr-theme-item-hover);
+}
+.light-theme .btn-toggle.disabled, .light-theme .btn-toggle[disabled] {
+    background-color: var(--btr-theme-border-lighter);
+}
 
 html .light-theme .btn-control-lg, html .light-theme .btn-control-sm, html .light-theme .btn-control-xs, html .light-theme .btn-control-md,
 html .light-theme .btn-control-sm:visited, html .light-theme .btn-control-xs:visited, html .light-theme .btn-control-md:visited,
@@ -276,8 +282,12 @@ html .light-theme .game-name-title:after {
     color: var(--btr-theme-text-disabled);
 }
 
-html .light-theme hr {
+html .light-theme hr, .light-theme .slide-switcher .slide-item-container .slide-item-container-right h2 {
 	border-color: #000;
+}
+
+.light-theme .slide-switcher .slide-item-container .slide-item-container-right .slide-item-description {
+	border-color: var(--btr-theme-border)
 }
 
 html .btr-it-checkbox input[type="checkbox"]+label:before,
