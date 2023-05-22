@@ -17,7 +17,7 @@ html {
 }
 
 .light-theme #navigation li a,
-html .light-theme .text-footer-nav:hover, html .light-theme .text-footer-nav:focus, {
+html .light-theme .text-footer-nav:hover, html .light-theme .text-footer-nav:focus {
 	color: var(--btr-theme-text);
 }
 
@@ -210,7 +210,7 @@ html .light-theme #header .btr-nav-notif {
 	border-left-color: var(--btr-theme-item);
 }
 
-.light-theme #navigation li a:not(:hover) span[class^="icon-"], .light-theme #navigation li a:not(:hover) span.new-menu-icon, .light-theme #navigation li button:not(:hover) span[class^="icon-"] {
+.light-theme #navigation li a:not(:hover) span[class^="icon-"], .light-theme #navigation li a:not(:hover) span.new-menu-icon, .light-theme #navigation li button:not(:hover) span[class^="icon-"], .light-theme .rbx-tab .text-lead .icon-down {
 	filter: invert(100%);
 }
 
