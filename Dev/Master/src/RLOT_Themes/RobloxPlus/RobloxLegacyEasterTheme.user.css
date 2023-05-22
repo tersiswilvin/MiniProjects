@@ -152,6 +152,27 @@
 		}
 	}
 	
+	.light-theme .dialog-container .dialog-message-container.message-cluster-master .link-card-container.dialog-triangle:before {
+		border-color: transparent transparent transparent #e3e3e3;
+	}
+	.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:before {
+		border-color: transparent #1c1c1c transparent transparent;
+	}
+	.dark-theme .dialog-container .dialog-message-container.message-cluster-master .link-card-container.dialog-triangle:before {
+		border-color: transparent transparent transparent #1c1c1c;
+	}
+	.light-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:after {
+		border-color: transparent #fff transparent transparent;
+	}
+	.light-theme .dialog-container .dialog-message-container.message-cluster-master .link-card-container.dialog-triangle:after {
+		border-color: transparent transparent transparent #fff;
+	}
+	.dark-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-triangle:after {
+		border-color: transparent #000 transparent transparent;
+	}
+	.dark-theme .dialog-container .dialog-message-container.message-cluster-master .link-card-container.dialog-triangle:after {
+		border-color: transparent transparent transparent #000;
+	}
 	
 	/* Footer */
 	.light-theme .footer .text-footer-nav, .light-theme .footer .text-footer-nav:link, .light-theme .footer .text-footer-nav:visited, .light-theme .footer .text-footer-nav:active, .dark-theme .footer .text-footer-nav, .dark-theme .footer .text-footer-nav:link, .dark-theme .footer .text-footer-nav:visited, .dark-theme .footer .text-footer-nav:active{
@@ -200,6 +221,10 @@
 	}
 	.icon-nav-shop:hover, a:hover .icon-nav-shop, button:hover .icon-nav-shop {
 		background-position: -28px -448px;
+	}
+	
+	.light-theme .games-list-container, .dark-theme .games-list-container {
+		background-color: transparent;
 	}
 	
 	.rbx-header .rbx-navbar-icon-group .age-bracket-label .age-bracket-label-username:before, .light-theme .rbx-header .rbx-navbar-icon-group .age-bracket-label .age-bracket-label-username:before, .dark-theme .rbx-header .rbx-navbar-icon-group .age-bracket-label .age-bracket-label-username:before {
