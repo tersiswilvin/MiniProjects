@@ -21,16 +21,21 @@ html .light-theme .text-footer-nav:hover, html .light-theme .text-footer-nav:foc
 	color: var(--btr-theme-text);
 }
 
-html .btr-feedtitle, .light-theme .rbx-header .navbar-search .navbar-search-option .new-navbar-search-anchor .navbar-list-option-suffix, .light-theme .btn-control-md:link,.light-theme .vlist .list-item,.light-theme .breadcrumb-container, .light-theme .btn-control-xs:link, .light-theme .notification-stream-list .notification-stream-item.unInteracted, .light-theme .notification-stream-list .notification-stream-item.unInteracted .notification-display-text, .light-theme .notification-stream-list .notification-stream-item:hover, .light-theme .notification-stream-list .notification-stream-item:hover .notification-display-text, .light-theme .text-nav, .light-theme .text-nav:hover, .light-theme .modal-dialog .modal-content .modal-body, .light-theme .modal-dialog .modal-content .modal-top-body, .light-theme .dialogs-minimize-container, .light-theme .notification-stream-list .notification-stream-item, .light-theme .modal-dialog .modal-content, .light-theme .list-item .group-card, .light-theme .store-card-add-label, .light-theme .store-card-price, .light-theme .menu-vertical .menu-option, .light-theme .menu-vertical .menu-option .menu-secondary-option, .light-theme .dialogs .dialog-container .dialog-message-container .indicated-message-bubble, .light-theme .small, .small-oneline, .light-theme #buy-robux-popover-menu li a, .light-theme #settings-popover-menu li a, .light-theme .select-group .select-option, .light-theme .input-field, .light-theme .menu-vertical .menu-option.active, .light-theme .stack .stack-list .stack-row, .light-theme .friends-list-container .friend-container .friend-info .friend-status, .light-theme .text-sec, .light-theme .small.text-title.text-overflow.font-caption-header.chat-friend-name.dynamic-ellipsis-item.ng-binding.read, .light-theme .participant-list-container .dropdown-menu li a, .light-theme .participant-list-container .dropdown-menu li a:visited, .light-theme .participant-list-container .dropdown-menu li a:hover, .light-theme .mobile-panel .panel .panel-heading, .light-theme #buy-robux-popover-menu li a:focus, .light-theme #buy-robux-popover-menu li a:hover, .light-theme #settings-popover-menu li a:focus, .light-theme #settings-popover-menu li a:hover, .light-theme .request-error-page-content .default-error-page, .light-theme .popover-content .dropdown-menu li a, .light-theme .popover-content .dropdown-menu li a:focus, .light-theme .popover-content .dropdown-menu li a:hover, .light-theme .rbx-select-group .rbx-select, .light-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading, .light-theme .table, .light-theme .rbx-tabs-horizontal .nav-tabs, .light-theme .popover, .light-theme .slide-switcher .slide-item-container .slide-item-container-right, .light-theme .dropdown-menu li, .light-theme .section-content, .light-theme .text, .light-theme .text-default, .light-theme .text-description, .light-theme .text-footer, .light-theme p, .light-theme .interaction-item, .light-theme .messages .messageDivider.message-news, .light-theme .people-list .friend .friend-link, .light-theme .rbx-header .navbar-search .navbar-search-option a, .light-theme .rbx-header .navbar-search .navbar-search-option a:hover, .light-theme .verification-link-page-content .verification-link-upsell, .light-theme .dropdown-menu, .light-theme .game-card-info .info-label, .light-theme .text-lead, .light-theme .text-lead:active, .light-theme .text-lead:hover, .light-theme .text-lead:link, .light-theme .text-lead:visited, .light-theme .text-title, .light-theme .text-title:active, .light-theme .text-title:hover, .light-theme .text-title:link, .light-theme .text-title:visited, .light-theme .rbx-left-col li .text-nav:active,.light-theme .rbx-left-col , .light-theme .rbx-left-col li .text-nav:link, .light-theme .rbx-left-col li .text-nav:visited, .light-theme .checkbox input[type="checkbox"] + label, .light-theme .radio, .light-theme .radio label, .light-theme .avatar-card-container, .light-theme .btn-control-sm:link, .light-theme .items-list .item-card .item-card-menu button:not(:hover), .light-theme .side-nav-container, .light-theme .friends-list-container .friend-container, .light-theme .friends-list-container, .light-theme .details-container, .light-theme .dialogs .dialog-container .dialog-body, .light-theme .chat-friend-list .chat-friend-container, .light-theme .sg-section, .light-theme .sg-container, .light-theme .rbx-select-group, .light-theme .rbx-header .navbar-search .new-input-field, .light-theme .menu-vertical, .light-theme .notification-stream-container .notification-content-view, .light-theme .message-status-container .read, .light-theme .message-status-container.unread, .light-theme .message-status-container .unread, .light-theme .message-status-container.secondary.unread, .light-theme .message-status-container .secondary.unread, .light-theme input, .light-theme textarea, .light-theme .game-card-native-ad .native-ad-label, .light-theme .chat-main-empty .chat-disconnect, .light-theme .chat-main, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .unread, .light-theme .dialog-container, .light-theme .rbx-header .navbar-search .navbar-search-option .new-navbar-search-anchor .navbar-list-option-text, .light-theme .text-muted, .light-theme .text-subheader, .light-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover), .light-theme .profile-avatar-right .profile-avatar-mask, .light-theme .slide-switcher.games, .light-theme .not-approved-page-content .not-approved-page, .light-theme .rbx-header .navbar-search .navbar-search-option.new-selected, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.secondary.unread, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .secondary.unread, .light-theme .slide-switcher.groups, .light-theme .roblox-popover-container, .light-theme .notification-stream-list .notification-stream-item.unInteracted, .light-theme .notification-stream-list .notification-stream-item.unInteracted .notification-display-text, .light-theme .notification-stream-list .notification-stream-item:hover, .light-theme .notification-stream-list .notification-stream-item:hover .notification-display-text, .light-theme#DevelopSplashScreen .body-container .blurbs-container, .light-theme #DevelopSplashScreen .body-container .blurbs-container, .light-theme .messages .messageDivider.unread, .light-theme .messages .messageDivider .unread, .light-theme .footer .row .text-footer-nav:focus, .light-theme .footer .row .text-footer-nav:hover, .light-theme .xsmall, .light-theme .profile-avatar-right, .banner, .banner .banner-start .banner-content .banner-header, .light-theme .game-language-item, .light-theme .bottom-nav .message-actions .action-buttons, .light-theme .fraud-message-container .message-default, .flatpickr-current-month .flatpickr-monthDropdown-months, .flatpickr-current-month input.cur-year, .flatpickr-weekdays, .flatpickr-day.nextMonthDay, .flatpickr-day.prevMonthDay, .flatpickr-day, .light-theme .highcharts-axis-labels, .light-theme .highcharts-axis-title, .light-theme .highcharts-legend, .light-theme .popover-content .dropdown-menu li a, .light-theme .popover-content .dropdown-menu li button, .light-theme .popover-content .dropdown-menu li a:focus, .light-theme .popover-content .dropdown-menu li a:hover, .light-theme .popover-content .dropdown-menu li button:focus, .light-theme .popover-content .dropdown-menu li button:hover, .light-theme .rbx-tabs-vertical .category-tabs .menu-vertical, .light-theme .conversation-title-editor-container .conversation-title-editor-body, .light-theme .catalog-content .search-options .menu-link:hover, .light-theme .menu-vertical .menu-option .menu-secondary, .light-theme .catalog-content .search-options .filter-label .panel-heading, .light-theme .open .dropdown-menu, .light-theme .pager .pager-cur a, .light-theme .pager .pager-cur span, .light-theme .pager .pager-total a, .light-theme .pager .pager-total span, .light-theme .game-card-avatar-slots .avatar .avatar-offset-label, .light-theme .menu-vertical .menu-option:hover, .light-theme .chat-search, .light-theme .rbx-left-col:before, .light-theme .recommended-game-container .game-name, .light-theme .recommended-game-container .game-name:active, .light-theme .recommended-game-container .game-name:focus, .light-theme .recommended-game-container .game-name:hover, .light-theme .active-game-container a.game-link, .light-theme .active-game-container a.game-link:active, .light-theme .active-game-container a.game-link:focus, .light-theme .active-game-container a.game-link:hover, .light-theme .pinned-game-container a.game-link, .light-theme .pinned-game-container a.game-link:active, .light-theme .pinned-game-container a.game-link:focus, .light-theme .pinned-game-container a.game-link:hover, .light-theme .verification-link-page-content .preparation-list-text .preparation-title, .light-theme .container-footer a, .light-theme .container-footer a:hover, .light-theme .dropdown-menu li.active, .light-theme .dropdown-menu li:focus, .light-theme .dropdown-menu li:hover, .light-theme .menu-vertical .menu-option .menu-secondary-option:focus, .light-theme .menu-vertical .menu-option .menu-secondary-option:hover, .light-theme .paired-name span:first-child, .light-theme .paired-name span:nth-child(2), .light-theme .paired-name span:nth-child(3), a.paired-name.text-name.ng-binding, .premium-container .page-top .top-header > .ng-binding, .premium-container .page-top .top-header > .ng-binding::after, .light-theme .payment-method-label-clickable .payment-method-label, .light-theme .payment-method-label-clickable .payment-method-label:hover, .light-theme .payment-method-label-clickable input.payment-method-radio-input:disabled+label.payment-method-label, .light-theme .radio input[type=radio]:disabled + label {
+html .light-theme .btr-feedtitle, .light-theme .rbx-header .navbar-search .navbar-search-option .new-navbar-search-anchor .navbar-list-option-suffix, .light-theme .btn-control-md:link,.light-theme .vlist .list-item,.light-theme .breadcrumb-container, .light-theme .btn-control-xs:link, .light-theme .notification-stream-list .notification-stream-item.unInteracted, .light-theme .notification-stream-list .notification-stream-item.unInteracted .notification-display-text, .light-theme .notification-stream-list .notification-stream-item:hover, .light-theme .notification-stream-list .notification-stream-item:hover .notification-display-text, .light-theme .text-nav, .light-theme .text-nav:hover, .light-theme .modal-dialog .modal-content .modal-body, .light-theme .modal-dialog .modal-content .modal-top-body, .light-theme .dialogs-minimize-container, .light-theme .notification-stream-list .notification-stream-item, .light-theme .modal-dialog .modal-content, .light-theme .list-item .group-card, .light-theme .store-card-add-label, .light-theme .store-card-price, .light-theme .menu-vertical .menu-option, .light-theme .menu-vertical .menu-option .menu-secondary-option, .light-theme .dialogs .dialog-container .dialog-message-container .indicated-message-bubble, .light-theme .small, .small-oneline, .light-theme #buy-robux-popover-menu li a, .light-theme #settings-popover-menu li a, .light-theme .select-group .select-option, .light-theme .input-field, .light-theme .menu-vertical .menu-option.active, .light-theme .stack .stack-list .stack-row, .light-theme .friends-list-container .friend-container .friend-info .friend-status, .light-theme .text-sec, .light-theme .small.text-title.text-overflow.font-caption-header.chat-friend-name.dynamic-ellipsis-item.ng-binding.read, .light-theme .participant-list-container .dropdown-menu li a, .light-theme .participant-list-container .dropdown-menu li a:visited, .light-theme .participant-list-container .dropdown-menu li a:hover, .light-theme .mobile-panel .panel .panel-heading, .light-theme #buy-robux-popover-menu li a:focus, .light-theme #buy-robux-popover-menu li a:hover, .light-theme #settings-popover-menu li a:focus, .light-theme #settings-popover-menu li a:hover, .light-theme .request-error-page-content .default-error-page, .light-theme .popover-content .dropdown-menu li a, .light-theme .popover-content .dropdown-menu li a:focus, .light-theme .popover-content .dropdown-menu li a:hover, .light-theme .rbx-select-group .rbx-select, .light-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading, .light-theme .table, .light-theme .rbx-tabs-horizontal .nav-tabs, .light-theme .popover, .light-theme .slide-switcher .slide-item-container .slide-item-container-right, .light-theme .dropdown-menu li, .light-theme .section-content, .light-theme .text, .light-theme .text-default, .light-theme .text-description, .light-theme .text-footer, .light-theme p, .light-theme .interaction-item, .light-theme .messages .messageDivider.message-news, .light-theme .people-list .friend .friend-link, .light-theme .rbx-header .navbar-search .navbar-search-option a, .light-theme .rbx-header .navbar-search .navbar-search-option a:hover, .light-theme .verification-link-page-content .verification-link-upsell, .light-theme .dropdown-menu, .light-theme .game-card-info .info-label, .light-theme .text-lead, .light-theme .text-lead:active, .light-theme .text-lead:hover, .light-theme .text-lead:link, .light-theme .text-lead:visited, .light-theme .text-title, .light-theme .text-title:active, .light-theme .text-title:hover, .light-theme .text-title:link, .light-theme .text-title:visited, .light-theme .rbx-left-col li .text-nav:active,.light-theme .rbx-left-col , .light-theme .rbx-left-col li .text-nav:link, .light-theme .rbx-left-col li .text-nav:visited, .light-theme .checkbox input[type="checkbox"] + label, .light-theme .radio, .light-theme .radio label, .light-theme .avatar-card-container, .light-theme .btn-control-sm:link, .light-theme .items-list .item-card .item-card-menu button:not(:hover), .light-theme .side-nav-container, .light-theme .friends-list-container .friend-container, .light-theme .friends-list-container, .light-theme .details-container, .light-theme .dialogs .dialog-container .dialog-body, .light-theme .chat-friend-list .chat-friend-container, .light-theme .sg-section, .light-theme .sg-container, .light-theme .rbx-select-group, .light-theme .rbx-header .navbar-search .new-input-field, .light-theme .menu-vertical, .light-theme .notification-stream-container .notification-content-view, .light-theme .message-status-container .read, .light-theme .message-status-container.unread, .light-theme .message-status-container .unread, .light-theme .message-status-container.secondary.unread, .light-theme .message-status-container .secondary.unread, .light-theme input, .light-theme textarea, .light-theme .game-card-native-ad .native-ad-label, .light-theme .chat-main-empty .chat-disconnect, .light-theme .chat-main, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .unread, .light-theme .dialog-container, .light-theme .rbx-header .navbar-search .navbar-search-option .new-navbar-search-anchor .navbar-list-option-text, .light-theme .text-muted, .light-theme .text-subheader, .light-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover), .light-theme .profile-avatar-right .profile-avatar-mask, .light-theme .slide-switcher.games, .light-theme .not-approved-page-content .not-approved-page, .light-theme .rbx-header .navbar-search .navbar-search-option.new-selected, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.secondary.unread, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .secondary.unread, .light-theme .slide-switcher.groups, .light-theme .roblox-popover-container, .light-theme .notification-stream-list .notification-stream-item.unInteracted, .light-theme .notification-stream-list .notification-stream-item.unInteracted .notification-display-text, .light-theme .notification-stream-list .notification-stream-item:hover, .light-theme .notification-stream-list .notification-stream-item:hover .notification-display-text, .light-theme#DevelopSplashScreen .body-container .blurbs-container, .light-theme #DevelopSplashScreen .body-container .blurbs-container, .light-theme .messages .messageDivider.unread, .light-theme .messages .messageDivider .unread, .light-theme .footer .row .text-footer-nav:focus, .light-theme .footer .row .text-footer-nav:hover, .light-theme .xsmall, .light-theme .profile-avatar-right, .banner, .banner .banner-start .banner-content .banner-header, .light-theme .game-language-item, .light-theme .bottom-nav .message-actions .action-buttons, .light-theme .fraud-message-container .message-default, .flatpickr-current-month .flatpickr-monthDropdown-months, .flatpickr-current-month input.cur-year, .flatpickr-weekdays, .flatpickr-day.nextMonthDay, .flatpickr-day.prevMonthDay, .flatpickr-day, .light-theme .highcharts-axis-labels, .light-theme .highcharts-axis-title, .light-theme .highcharts-legend, .light-theme .popover-content .dropdown-menu li a, .light-theme .popover-content .dropdown-menu li button, .light-theme .popover-content .dropdown-menu li a:focus, .light-theme .popover-content .dropdown-menu li a:hover, .light-theme .popover-content .dropdown-menu li button:focus, .light-theme .popover-content .dropdown-menu li button:hover, .light-theme .rbx-tabs-vertical .category-tabs .menu-vertical, .light-theme .conversation-title-editor-container .conversation-title-editor-body, .light-theme .catalog-content .search-options .menu-link:hover, .light-theme .menu-vertical .menu-option .menu-secondary, .light-theme .catalog-content .search-options .filter-label .panel-heading, .light-theme .open .dropdown-menu, .light-theme .pager .pager-cur a, .light-theme .pager .pager-cur span, .light-theme .pager .pager-total a, .light-theme .pager .pager-total span, .light-theme .game-card-avatar-slots .avatar .avatar-offset-label, .light-theme .menu-vertical .menu-option:hover, .light-theme .chat-search, .light-theme .rbx-left-col:before, .light-theme .recommended-game-container .game-name, .light-theme .recommended-game-container .game-name:active, .light-theme .recommended-game-container .game-name:focus, .light-theme .recommended-game-container .game-name:hover, .light-theme .active-game-container a.game-link, .light-theme .active-game-container a.game-link:active, .light-theme .active-game-container a.game-link:focus, .light-theme .active-game-container a.game-link:hover, .light-theme .pinned-game-container a.game-link, .light-theme .pinned-game-container a.game-link:active, .light-theme .pinned-game-container a.game-link:focus, .light-theme .pinned-game-container a.game-link:hover, .light-theme .verification-link-page-content .preparation-list-text .preparation-title, .light-theme .container-footer a, .light-theme .container-footer a:hover, .light-theme .dropdown-menu li.active, .light-theme .dropdown-menu li:focus, .light-theme .dropdown-menu li:hover, .light-theme .menu-vertical .menu-option .menu-secondary-option:focus, .light-theme .menu-vertical .menu-option .menu-secondary-option:hover, .light-theme .paired-name span:first-child, .light-theme .paired-name span:nth-child(2), .light-theme .paired-name span:nth-child(3), a.paired-name.text-name.ng-binding, .premium-container .page-top .top-header > .ng-binding, .premium-container .page-top .top-header > .ng-binding::after, .light-theme .payment-method-label-clickable .payment-method-label, .light-theme .payment-method-label-clickable .payment-method-label:hover, .light-theme .payment-method-label-clickable input.payment-method-radio-input:disabled+label.payment-method-label, .light-theme .radio input[type=radio]:disabled + label {
 	color: var(--btr-theme-text-secondary);
 }
 
-	.light-theme .payment-method-label-clickable input.payment-method-radio-input:checked+label.payment-method-label {
-		background-color: var(--btr-theme-item-hover);
-		color: var(--btr-theme-text-disabled);
-	}
+.light-theme .payment-method-label-clickable input.payment-method-radio-input:checked+label.payment-method-label {
+	background-color: var(--btr-theme-item-hover);
+	color: var(--btr-theme-text-disabled);
+}
 
-.light-theme .text-secondary, .light-theme .pill-toggle label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.unread, .light-theme .text-link-secondary, .catalog-content .search-options .panel-heading, .small.text.menu-link.text-link-secondary.ng-binding, .light-theme .text-info, .light-theme .no-servers-message, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link, .light-theme .text-muted, .light-theme .item-card-label, .light-theme .game-card-experimental, .light-theme .game-card-container .game-card-name-secondary, .light-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message-author, html .btr-feeddesc, html .btr-feedcreator, html .btr-feeddate, html .light-theme .item-card-label, .light-theme .dialogs .dialog-container .dialog-message-container .link-card-details .link-card-description, .light-theme .footer .text-footer-nav, .light-theme .footer .text-footer-nav:link, .light-theme .footer .text-footer-nav:visited, .light-theme .footer .text-footer-nav:active, .light-theme .text-footer, .light-theme .text-pastname, .light-theme .text-label, .light-theme .mobile-search-options .text-label, .light-theme .text-label .text-robux-tile[ng-class="{'text-robux-tile': item.Product.IsFree}"], .rbx-left-col:after, .light-theme .messages .message-detail .message-detail-body a.messageDivider.read, .light-theme .messages .messageDivider .message-detail .message-detail-body a.read, .light-theme .messages .messageDivider.read, .light-theme .messages .messageDivider .read, .light-theme .messages .messageDivider.read .message-detail .message-detail-body a, .light-theme .messages .messageDivider .read .message-detail .message-detail-body a, .light-theme .messages .messageDivider.read.text, .light-theme .messages .messageDivider.read .text, .light-theme .messages .messageDivider .read.text, .light-theme .messages .messageDivider .read .text, .light-theme .messages .messageDivider.read.text-label, .light-theme .messages .messageDivider.read .text-label, .light-theme .messages .messageDivider .read.text-label, .light-theme .messages .messageDivider .read .text-label, .light-theme .messages .messageDivider.read.text-link, .light-theme .messages .messageDivider.read .text-link, .light-theme .messages .messageDivider .read.text-link, .light-theme .messages .messageDivider .read .text-link, .message-detail .message-detail-body .light-theme .messages .messageDivider.read a, .message-detail .message-detail-body .light-theme .messages .messageDivider .read a, .message-detail .message-detail-body .light-theme .messages .messageDivider a.read, .message-detail .message-detail-body .light-theme .messages a.messageDivider.read, .light-theme .text-date-hint, .light-theme .message-summary-content, .light-theme .message-summary-content .subject, .light-theme .messages .messageDivider.unread .message-summary-body .subject, .light-theme .form-has-feedback .form-control-feedback, .light-theme .form-has-feedback .form-control-label, .light-theme .text-report-ads, .light-theme .text-report-ads:active, .light-theme .text-report-ads:link, .light-theme .text-report-ads:visited, .light-theme .text-footer-nav, .light-theme .text-footer-nav:active, .light-theme .text-footer-nav:link, .light-theme .text-footer-nav:visited {
+.light-theme .notification-stream-loading, .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-loading {
+    background-color: hsla(0, 0%, 0%, 0.6);
+    color: var(--btr-theme-text-secondary);
+}
+
+.light-theme .text-secondary, .light-theme .pill-toggle label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.unread, .light-theme .text-link-secondary, .catalog-content .search-options .panel-heading, .small.text.menu-link.text-link-secondary.ng-binding, .light-theme .text-info, .light-theme .no-servers-message, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link, .light-theme .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link, .light-theme .text-muted, .light-theme .item-card-label, .light-theme .game-card-experimental, .light-theme .game-card-container .game-card-name-secondary, .light-theme .dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message-author, html .light-theme .btr-feeddesc, html .light-theme .btr-feedcreator, html .light-theme .btr-feeddate, html .light-theme .item-card-label, .light-theme .dialogs .dialog-container .dialog-message-container .link-card-details .link-card-description, .light-theme .footer .text-footer-nav, .light-theme .footer .text-footer-nav:link, .light-theme .footer .text-footer-nav:visited, .light-theme .footer .text-footer-nav:active, .light-theme .text-footer, .light-theme .text-pastname, .light-theme .text-label, .light-theme .mobile-search-options .text-label, .light-theme .text-label .text-robux-tile[ng-class="{'text-robux-tile': item.Product.IsFree}"], .rbx-left-col:after, .light-theme .messages .message-detail .message-detail-body a.messageDivider.read, .light-theme .messages .messageDivider .message-detail .message-detail-body a.read, .light-theme .messages .messageDivider.read, .light-theme .messages .messageDivider .read, .light-theme .messages .messageDivider.read .message-detail .message-detail-body a, .light-theme .messages .messageDivider .read .message-detail .message-detail-body a, .light-theme .messages .messageDivider.read.text, .light-theme .messages .messageDivider.read .text, .light-theme .messages .messageDivider .read.text, .light-theme .messages .messageDivider .read .text, .light-theme .messages .messageDivider.read.text-label, .light-theme .messages .messageDivider.read .text-label, .light-theme .messages .messageDivider .read.text-label, .light-theme .messages .messageDivider .read .text-label, .light-theme .messages .messageDivider.read.text-link, .light-theme .messages .messageDivider.read .text-link, .light-theme .messages .messageDivider .read.text-link, .light-theme .messages .messageDivider .read .text-link, .message-detail .message-detail-body .light-theme .messages .messageDivider.read a, .message-detail .message-detail-body .light-theme .messages .messageDivider .read a, .message-detail .message-detail-body .light-theme .messages .messageDivider a.read, .message-detail .message-detail-body .light-theme .messages a.messageDivider.read, .light-theme .text-date-hint, .light-theme .message-summary-content, .light-theme .message-summary-content .subject, .light-theme .messages .messageDivider.unread .message-summary-body .subject, .light-theme .form-has-feedback .form-control-feedback, .light-theme .form-has-feedback .form-control-label, .light-theme .text-report-ads, .light-theme .text-report-ads:active, .light-theme .text-report-ads:link, .light-theme .text-report-ads:visited, .light-theme .text-footer-nav, .light-theme .text-footer-nav:active, .light-theme .text-footer-nav:link, .light-theme .text-footer-nav:visited, .light-theme .notification-stream-body .container-empty {
     color: var(--btr-theme-text-disabled);
 }
 
@@ -51,7 +56,7 @@ html .light-theme .container-footer {
 	background-color: rgba(0, 0, 0, 0.94)
 }
 
-.light-theme .rbx-divider, .light-theme .stack .card-list .player-thumbnails-container .player-avatar.hidden-players-placeholder, .light-theme .sg-scrollbar .rbx-left-col {
+.light-theme .rbx-divider, .light-theme .stack .card-list .player-thumbnails-container .player-avatar.hidden-players-placeholder, .light-theme .sg-scrollbar .rbx-left-col, .light-theme .notification-stream-body .container-empty, .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .container-empty {
     background-color: var(--btr-theme-border-lighter);
 }
 
@@ -59,7 +64,7 @@ html .light-theme .container-footer {
 	filter: invert(75%);
 }
 
-.stack .card-list .card-item .game-server-details, .stack .card-list .rbx-private-game-server-item .card-item .game-server-details, .light-theme .stack .card-list .rbx-private-game-server-item .card-item .game-server-details div:not(.link-menu):not(:nth-child(1)), .light-theme .stack .card-list .rbx-private-game-server-item .card-item .game-server-details div + span, .divider-left, .divider-top, .rbx-tabs-vertical ul {
+.divider-left, .divider-top, .rbx-tabs-vertical ul {
 	border-color: var(--btr-theme-border)
 }
 
@@ -86,7 +91,7 @@ html .light-theme .dropdown-menu,
 html .light-theme .open .dropdown-menu,
 html .light-theme .popover,
 html .light-theme .modal-dialog .modal-content,
-html .light-theme .notification-stream-body, .light-theme .item-card-container, .light-theme .item-card-container .item-card-thumb-container, .light-theme .item-card-container .item-card-caption, .btr-catalog.light-theme .btr-item-card-more, .light-theme .rbx-tabs-vertical .category-tabs .menu-vertical, .light-theme .stack .card-list .card-item, .light-theme .voting-panel .users-vote .vote-details .vote-container .vote-mask .segment, .light-theme .rbx-tabs-horizontal .nav-tabs, .light-theme .rbx-tab .rbx-tab-heading, .light-theme .slide-switcher .slide-item-container .slide-item-container-right, .light-theme .premium-container .robux-body .robux-row, .light-theme .messages .messageDivider.message-news, .light-theme .item-details-thumbnail-container .thumbnail-holder, .light-theme .menu-vertical, .light-theme .menu-vertical .menu-option .menu-secondary-option.active, .light-theme .menu-vertical .menu-option .menu-secondary-option:active, .light-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a, .light-theme .sg-container, .light-theme .input-field, .light-theme input, .light-theme #sandbox .catalog-tabs, .light-theme .pill-toggle, .light-theme .rbx-tabs-vertical .rbx-tab.active .rbx-tab-heading, .light-theme .rbx-header .navbar-search .navbar-search-option.new-selected, .light-theme .rbx-header .navbar-search .navbar-search-option, .light-theme .rbx-header .navbar-search .navbar-search-option.selected, .light-theme .rbx-header .navbar-search .new-dropdown-menu, .light-theme .content-overflow-toggle .toggle-content {
+html .light-theme .notification-stream-body, .light-theme .item-card-container, .light-theme .item-card-container .item-card-thumb-container, .light-theme .item-card-container .item-card-caption, .btr-catalog.light-theme .btr-item-card-more, .light-theme .rbx-tabs-vertical .category-tabs .menu-vertical, .light-theme .stack .card-list .card-item, .light-theme .voting-panel .users-vote .vote-details .vote-container .vote-mask .segment, .light-theme .rbx-tabs-horizontal .nav-tabs, .light-theme .rbx-tab .rbx-tab-heading, .light-theme .slide-switcher .slide-item-container .slide-item-container-right, .light-theme .premium-container .robux-body .robux-row, .light-theme .messages .messageDivider.message-news, .light-theme .item-details-thumbnail-container .thumbnail-holder, .light-theme .menu-vertical, .light-theme .menu-vertical .menu-option .menu-secondary-option.active, .light-theme .menu-vertical .menu-option .menu-secondary-option:active, .light-theme .profile-accoutrements-container .profile-accoutrements-slider .accoutrement-item a, .light-theme .sg-container, .light-theme .input-field, .light-theme input, .light-theme #sandbox .catalog-tabs, .light-theme .pill-toggle, .light-theme .rbx-tabs-vertical .rbx-tab.active .rbx-tab-heading, .light-theme .rbx-header .navbar-search .navbar-search-option.new-selected, .light-theme .rbx-header .navbar-search .navbar-search-option, .light-theme .rbx-header .navbar-search .navbar-search-option.selected, .light-theme .rbx-header .navbar-search .new-dropdown-menu, .light-theme .content-overflow-toggle .toggle-content, .light-theme .btr-preview-container {
 	background-color: var(--btr-theme-item);
 }
 
@@ -171,7 +176,7 @@ html .light-theme .notification-stream-header,
 html .light-theme .notification-stream-list .notification-stream-item,
 html .light-theme .notification-stream-list .notification-stream-item, .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item, html .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .react-notification-wrapper
 html .light-theme .notification-stream-body, html .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body,
-html .notification-stream-list .notification-stream-item .notification-display-text:after{
+html .light-theme .notification-stream-list .notification-stream-item .notification-display-text:after{
 	background-color: var(--btr-theme-item-hover);
 }
 
@@ -180,7 +185,7 @@ html .light-theme .roblox-popover-content.bottom .arrow:after, html .light-theme
 }
 
 html .light-theme .notification-stream-list .notification-stream-item.unInteracted, html .light-theme .new-notification-stream-2022 .notification-stream-container .notification-content-view .notification-stream-body .notification-stream-scrollbar .notification-stream-list .notification-stream-item.unInteracted,
-html .notification-stream-list .notification-stream-item.unInteracted .notification-display-text:after {
+html .light-theme .notification-stream-list .notification-stream-item.unInteracted .notification-display-text:after {
 	background-color: var(--btr-theme-item-hover-hover);
 }
 
@@ -294,8 +299,8 @@ html .light-theme hr, .light-theme .slide-switcher .slide-item-container .slide-
 	border-color: var(--btr-theme-border)
 }
 
-html .btr-it-checkbox input[type="checkbox"]+label:before,
-.btr-settings-checkbox input[type="checkbox"] + label:before,
+html .btr-light-theme .btr-it-checkbox input[type="checkbox"]+label:before,
+.btr-light-theme .btr-settings-checkbox input[type="checkbox"] + label:before,
 html .light-theme .checkbox label::before,
 .light-theme .checkbox input[type="checkbox"] + label::before,
 html .light-theme .radio label::before {
@@ -305,10 +310,11 @@ html .light-theme .radio label::before {
 
 html .light-theme .form-control,
 html .light-theme .btr-server-pager .btr-server-input,
-html .light-theme .content .btr-CurrentPage,
-html .light-theme .btr-pager-holder input.pager-cur {
+html .light-theme .content .btr-currentPage input,
+html .light-theme .btr-pager-holder input.btr-pager-cur {
 	background-color: var(--btr-theme-item);
 	border-color: var(--btr-theme-divider);
+	color: var(--btr-theme-text-secondary);
 }
 
 html .light-theme .input-group .form-control, html .light-theme .input-group .form-control:first-child, html .light-theme .input-group .input-field:focus {
@@ -317,7 +323,7 @@ html .light-theme .input-group .form-control, html .light-theme .input-group .fo
 }
 
 html .light-theme .input-field,
-html .light-theme .content .btr-CurrentPage {
+html .light-theme .content .btr-currentPage input {
 	color: var(--btr-theme-text-secondary);
 }
 
@@ -345,32 +351,32 @@ html .light-theme .icon-nav-search:not(:hover), .light-theme .rbx-header .navbar
 	filter: invert(100%);
 }
 
-.btr-light-theme .btr-settings-header, .btr-dark-theme .btr-settings-header,
-html .btr-fake-header,
+.btr-light-theme .btr-settings-header,
+html .btr-light-theme .btr-fake-header,
 html #btr-naveditor-topright-container li,
-html .btr-naveditor-item > a, html .btr-naveditor-item > a:active, html .btr-naveditor-item > a:visited, html .btr-naveditor-item > a:focus, html .btr-naveditor-item > a:link {
+html .light-theme .btr-naveditor-item > a, html .light-theme .btr-naveditor-item > a:active, html .light-theme .btr-naveditor-item > a:visited, html .btr-naveditor-item > a:focus, html .light-theme .btr-naveditor-item > a:link {
 	background-color: var(--btr-theme-header);
 }
 
-html .btr-settings {
+html .btr-light-theme .btr-settings {
 	background-color: var(--btr-theme-background);
 	color: var(--btr-theme-text-secondary);
 }
 
-html .btr-naveditor-container {
+html .light-theme .btr-naveditor-container {
 	background-color: var(--btr-theme-item);
 	border-color: var(--btr-theme-border-lighter);
 }
 
-html .btr-filter-enabled, html .btr-filter-disabled {
+html .light-theme .btr-filter-enabled, html .light-theme .btr-filter-disabled {
 	background-color: var(--btr-theme-item);
 }
 
-html .btr-filter-group {
+html .light-theme .btr-filter-group {
 	background-color: var(--btr-theme-item-hover);
 }
 
-html .btr-filter-group:active {
+html .light-theme .btr-filter-group:active {
 	background-color: var(--btr-theme-item-hover-hover);
 }
 
@@ -378,7 +384,7 @@ html .btr-settings-content group > h4 {
 	color: var(--btr-theme-text-secondary);
 }
 
-html .btr-settings select {
+html .btr-light-theme .btr-settings select {
 	color: #191919;
 }
 
@@ -625,7 +631,7 @@ html .light-theme .rbx-tab .rbx-tab-heading {
 	color: var(--btr-theme-text-secondary);
 }
 
-html .light-theme .section-left {
+html .light-theme .section-left, .stack .card-list .card-item .game-server-details, .stack .card-list .rbx-private-game-server-item .card-item .game-server-details, .light-theme .stack .card-list .rbx-private-game-server-item .card-item .game-server-details div:not(.link-menu):not(:nth-child(1)), .light-theme .stack .card-list .rbx-private-game-server-item .card-item .game-server-details div + span {
 	border-right-color: var(--btr-theme-border-lighter);
 }
 
@@ -643,7 +649,7 @@ html .light-theme .voting-panel .users-vote .vote-details .vote-container .vote-
 	background-color: var(--btr-theme-item);
 }
 
-html #rbx-passes-container .store-card, #store .store-cards .store-card, html #rbx-gear-container .store-card,
+html .light-theme #rbx-passes-container .store-card, .light-theme #store .store-cards .store-card, html .light-theme #rbx-gear-container .store-card,
 html .light-theme .social-links .medallion {
 	background-color: var(--btr-theme-item);
 	border-color: var(--btr-theme-border-lighter);
@@ -658,7 +664,7 @@ html .light-theme .scroller, html .light-theme .scroller:hover, html .light-them
 	border-color: var(--btr-theme-border-lighter);
 }
 
-html .icon-games-carousel-left, html .icon-games-carousel-right {
+html .light-theme .icon-games-carousel-left, html .light-theme .icon-games-carousel-right {
 	filter: invert(70%);
 }
 
@@ -675,54 +681,54 @@ html .light-theme .profile-container .asset-item span[title],
 html .profile-container .asset-item img, .light-theme .asset-thumb-container {
 	border-color: var(--btr-theme-border);
 }
-html .btr-profile-groups .game-card-container,
-html .btr-profile-groups .game-card-thumb-container,
-html .btr-profile-favorites .game-card-container,
-html .btr-profile-favorites .game-card-thumb-container,
-html .btr-profile .btr-games-list .btr-game-button,
-html .btr-profile .btr-games-list .btr-game-icon {
+html .light-theme .btr-profile-groups .game-card-container,
+html .light-theme .btr-profile-groups .game-card-thumb-container,
+html .light-theme .btr-profile-favorites .game-card-container,
+html .light-theme .btr-profile-favorites .game-card-thumb-container,
+html .light-theme.btr-profile .btr-games-list .btr-game-button,
+html .btr-profile.btr-games-list .btr-game-icon {
 	border-color: var(--btr-theme-border-lighter);
 }
 
-html .btr-profile .btr-games-list .btr-game-button {
+html .light-theme.btr-profile .btr-games-list .btr-game-button {
 	color: var(--btr-theme-text-secondary);
 }
 
-html .btr-profile .profile-stats-container {
+html .light-theme.btr-profile .profile-stats-container, .light-theme.btr-profile #aliases-container .border-top {
 	border-color: var(--btr-theme-divider);
 }
 
-html .profile-avatar-left {
+html .light-theme .profile-avatar-left {
 	background: none;
 }
 
-html .game-card-container,
-html .btr-profile .btr-games-list .btr-game-button,
-html .btr-profile .btr-games-list .btr-game-icon {
+html .light-theme .game-card-container,
+html .light-theme.btr-profile .btr-games-list .btr-game-button,
+html .light-theme.btr-profile .btr-games-list .btr-game-icon {
 	background-color: var(--btr-theme-item);
 }
 
-html .container-buttons .btn-control-xs > span, .light-theme .section-content.remove-panel .form-group .btn-generic-edit-sm .icon-edit, .light-theme .profile-container .profile-about .btn-generic-edit-sm .icon-edit, .light-theme .field-content.field-content-with-edit-button .btn-generic-edit-sm .icon-edit {
+html .light-theme .container-buttons .btn-control-xs > span, .light-theme .section-content.remove-panel .form-group .btn-generic-edit-sm .icon-edit, .light-theme .profile-container .profile-about .btn-generic-edit-sm .icon-edit, .light-theme .field-content.field-content-with-edit-button .btn-generic-edit-sm .icon-edit {
 	filter: invert(70%);
 }
 
-html .game-card-name-secondary,
-html .btr-profile .btr-games-list .btr-game-desc-content.btr-no-description:after {
+html .light-theme .game-card-name-secondary,
+html .light-theme.btr-profile .btr-games-list .btr-game-desc-content.btr-no-description:after {
 	color: var(--btr-theme-text-disabled);
 }
 
-html .profile-avatar-left .enable-three-dee,
-html .profile-avatar-left .enable-three-dee:hover {
+html .light-theme .profile-avatar-left .enable-three-dee,
+html .light-theme .profile-avatar-left .enable-three-dee:hover {
 	background-color: var(--btr-theme-item);
 	border-color: var(--btr-theme-border-lighter);
 	color: var(--btr-theme-text-secondary);
 }
 
-html .profile-avatar-left .enable-three-dee:hover {
+html .light-theme .profile-avatar-left .enable-three-dee:hover {
 	background-color: var(--btr-theme-item-hover);
 }
 
-.btr-profile .btr-games-list .btr-game-desc .btr-toggle-description {
+.light-theme.btr-profile .btr-games-list .btr-game-desc .btr-toggle-description {
 	background-color: var(--btr-theme-item);
 }
 
