@@ -1,0 +1,124 @@
+/* ==UserStyle==
+@name         Project Variety
+@version      20230601.1.0
+@namespace    userstyles.world/user/tersiswilvin
+@description  V3.0 Buttons
+@author       TersisWilvin
+@license      CC-BY-SA-4.0
+@preprocessor less
+@var          checkbox BoxShadows                  "Box Shadows"                        0
+@var          checkbox BrighterDarkThemeColors     "Brighter Dark theme Colors"         0
+@var          checkbox LegacyNextStyleGuideButtons "Legacy Next Styleguide"             0
+@var          checkbox RemoveUpdates               "Revert 2019L+ changes"              1
+@var          checkbox SourceSansPro               "Source San Pro Font"                0
+@var          checkbox TransitionalAnimations      "Transition animations"              1
+==/UserStyle== */
+
+@-moz-document domain("www.roblox.com") {
+	/*/=={ Buttons }==/*/
+	/*/== Green Buttons ==/*/
+	.light-theme, .dark-theme {
+		.btn-cta-lg, .btn-growth-lg, .btn-primary-lg, .btn-common-play-game-lg, a.btn-common-play-game-lg, button.btn-common-play-game-lg, .btn-branded-robux-white-lg, a.btn-branded-robux-white-lg, button.btn-branded-robux-white-lg {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+		.btn-cta-md, .btn-growth-md, .btn-primary-md, .request-error-page-content .action-buttons .btn-primary-md:link, #download-the-app-container .primary-link {
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 3px;
+		}
+		.btn-cta-sm, .btn-growth-sm, .btn-primary-sm {
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			font-size: 16px;
+			border-radius: 3px;
+		}
+		.btn-cta-xs, .btn-growth-xs, .btn-primary-xs {
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			font-size: 14px;
+			border-radius: 3px;
+		}
+	}
+	.btn-cta-lg, .btn-cta-md, .btn-cta-sm, .btn-cta-xs, .btn-growth-lg, .btn-growth-md, .btn-growth-sm, .btn-growth-xs, .btn-primary-lg, .btn-primary-md, .btn-primary-sm, .btn-primary-xs, .btn-common-play-game-lg, .btn-branded-robux-white-lg, .request-error-page-content .action-buttons .btn-primary-md, #download-the-app-container .primary-link {
+		.light-theme & {
+			&:focus, &:hover {
+				background-color: #3fc679;
+				& when (@BoxShadows = 1) {
+					box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+				}
+				border-color: #3fc679;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+		.dark-theme & {
+			&:focus, &:hover {
+				background-color: #3fc679;
+				& when (@BoxShadows = 1) {
+					box-shadow: 0 1px 3px rgba(105,105,105,0.74);
+				}
+				border-color: #3fc679;
+				color: #fff;
+				cursor: pointer;
+			}
+		}
+		.light-theme &, .dark-theme & {
+			&.active, &:active {
+				& when (@BoxShadows = 1) {
+					box-shadow: none;
+				}
+				background-color: #3fc679;
+				color: #fff;
+			}
+			/*/ Disabled /*/
+			&.disabled, &.disabled.active, &.disable:active, &.disabled:focus, &.disabled:hover, &[disabled], &[disabled].active, &[disabled]:active, &[disabled]:focus, &[disabled]:hover {
+				opacity: .5;
+				background-color: #a3e2bd;
+				border-color: #a3e2bd;
+				color: #fff;
+				& when (@LegacyNextStyleGuideButtons = 0) {
+					cursor: not-allowed;
+					pointer-events: none;
+				}
+				& when (@LegacyNextStyleGuideButtons = 1) {
+					cursor: default;
+					pointer-events: all;
+				}
+			}
+		}
+		/*/ Touch /*/
+		.light-theme .touch &, .dark-theme .touch & {
+			&:not([disabled]):focus, &:not([disabled]):hover, &:not([disabled]):visited {
+				color: #fff;
+				background-color: #02b757;
+				border-color: #02b757;
+			}
+			&:not([disabled]).active, &:not([disabled]):active {
+				color: #fff;
+				& when (@LegacyNextStyleGuideButtons = 0) {
+					background-color: #118237;
+					border-color: #118237;
+				}
+				& when (@LegacyNextStyleGuideButtons = 1) {
+					background-color: #01853f;
+					border-color: #017a3a;
+				}
+			}
+		}
+	}
+}
