@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Project Variety
-@version      20230601.1.0
+@version      20230603.1.2
 @namespace    userstyles.world/user/tersiswilvin
 @description  V3.0 Buttons
 @author       TersisWilvin
@@ -422,6 +422,13 @@
 			background-color: #32b5ff;
 			color: #fff;
 		}
+		.dark-theme &.active, .dark-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #32b5ff;
+			color: #fff;
+		}
 		/*/ Disabled /*/
 		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover {
 			opacity: .5;
@@ -739,7 +746,7 @@
 				color: #757575;
 			}
 		}
-		.darkt-theme & {
+		.dark-theme & {
 			&, &:link {
 				color: #8A8A8A;
 			}
@@ -841,8 +848,8 @@
 			color: #fff;
 		}
 	}
+	/*/ Disabled /*/
 	.btn-control-lg, .btn-control-md, .btn-control-sm, .btn-control-xs, .btn-buy-lg, .btn-buy-md, .btn-buy-sm, .btn-buy-xs, .profile-header .header-caption .header-details .details-actions .btn-primary-md, .profile-header .header-caption .header-details .details-actions .btn-alert-md, .dark-theme .btn-control-lg.disabled, .avatar-card-btns .ignore-friend {
-		/*/ Disabled /*/
 		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover {
 			opacity: .5;
 			background-color: #fff;
@@ -870,6 +877,334 @@
 				cursor: default;
 				pointer-events: all;
 			}
+		}
+	}
+	.btn-generic-edit-lg, .btn-generic-edit-md, .btn-generic-edit-sm, .btn-generic-edit-xs, .btn-generic-locked-sm,a.btn-generic-locked-sm,button.btn-generic-locked-sm, .btn-generic-unlocked-sm,a.btn-generic-unlocked-sm,button.btn-generic-unlocked-sm, .btn-generic-back-sm, .btn-generic-next-sm {
+		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover  {
+			opacity: .5;
+			background-color: #fff;
+			border-color: #b8b8b8;
+			color: #191919;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+		.dark-theme &.disabled, .dark-theme &.disabled.active, .dark-theme &.disabled:active, .dark-theme &.disabled:focus, .dark-theme &.disabled:hover, .dark-theme &[disabled], .dark-theme &[disabled].active, .dark-theme &[disabled]:active, .dark-theme &[disabled]:focus, .dark-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #000;
+			border-color: #474747;
+			color: #e6e6e6;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+	}
+	/*/ Touch /*/
+	.btn-control-lg, .btn-control-md, .btn-control-sm, .btn-control-xs, .btn-generic-edit-lg, a.btn-generic-edit-lg, .btn-generic-edit-md, a.btn-generic-edit-md, .btn-generic-edit-sm, a.btn-generic-edit-sm, .btn-generic-edit-xs, a.btn-generic-edit-xs, .profile-header .header-caption .header-details .details-actions .btn-primary-md, .profile-header .header-caption .header-details .details-actions .btn-alert-md, .btn-generic-locked-sm,a.btn-generic-locked-sm, .btn-generic-unlocked-sm,a.btn-generic-unlocked-sm, .btn-generic-first-page-sm, a.btn-generic-first-page-sm, .btn-generic-left-sm, a.btn-generic-left-sm, .btn-generic-right-sm, a.btn-generic-right-sm, .btn-generic-last-page-sm, a.btn-generic-last-page-sm, .avatar-card-btns .ignore-friend, .btn-generic-back-sm, a.btn-generic-back-sm, .btn-generic-next-sm, a.btn-generic-next-sm {
+		.light-theme .touch &:not([disabled]):focus, .light-theme .touch &:not([disabled]):hover, .light-theme .touch &:not([disabled]):visited {
+			color: #191919;
+			background-color: #fff;
+			border-color: #b8b8b8;
+		}
+		.dark-theme .touch &:not([disabled]):focus, .dark-theme .touch &:not([disabled]):hover, .dark-theme .touch &:not([disabled]):visited {
+			color: #e6e6e6;
+			background-color: #000;
+			border-color: #474747;
+		}
+		.light-theme .touch &:not([disabled]).active, .light-theme .touch &:not([disabled]):active {
+			color: #191919;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #f2f2f2;
+				border-color: #b8b8b8;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #e6e6e6;
+				border-color: #999;
+			}
+		}
+		.dark-theme .touch &:not([disabled]).active, .dark-theme .touch &:not([disabled]):active {
+			color: #e6e6e6;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #0d0d0d;
+				border-color: #474747;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #191919;
+				border-color: #666;
+			}
+		}
+	}
+	.btn-buy-lg, .btn-buy-md, .btn-buy-sm, .btn-buy-xs {
+		.light-theme .touch &:not([disabled]):focus, .light-theme .touch &:not([disabled]):hover, .light-theme .touch &:not([disabled]):visited {
+			color: #757575;
+			background-color: #fff;
+			border-color: #b8b8b8;
+		}
+		.dark-theme .touch &:not([disabled]):focus, .dark-theme .touch &:not([disabled]):hover, .dark-theme .touch &:not([disabled]):visited {
+			color: #8A8A8A;
+			background-color: #000;
+			border-color: #474747;
+		}
+		.light-theme .touch &:not([disabled]).active, .light-theme .touch &:not([disabled]):active {
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #118237;
+				border-color: #118237;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #30a261;
+				border-color: #2e9a5c;
+			}
+		}
+		.dark-theme .touch &:not([disabled]).active, .dark-theme .touch &:not([disabled]):active {
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #118237;
+				border-color: #118237;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #30a261;
+				border-color: #2e9a5c;
+			}
+		}
+	}
+	/*/== Red Buttons ==/*/
+	.btn-alert-lg {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+	}
+	.btn-alert-md {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-alert-sm {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-alert-xs {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #d86868;
+			border: 1px solid #d86868;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-alert-lg, .btn-alert-md, .btn-alert-sm, .btn-alert-xs {
+		.light-theme &:focus, .light-theme &:hover {
+			background-color: #e27676;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #e27676;
+			color: #fff;
+			cursor: pointer;
+		}
+		.dark-theme &:focus, .dark-theme &:hover {
+			background-color: #e27676;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #e27676;
+			color: #fff;
+			cursor: pointer;
+		}
+		.light-theme &.active, .light-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #e27676;
+			color: #fff;
+		}
+		.dark-theme &.active, .dark-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #e27676;
+			color: #fff;
+		}
+		/*/ Disabled /*/
+		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #d86868;
+			border-color: #d86868;
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+		.dark-theme &.disabled, .dark-theme &.disabled.active, .dark-theme &.disabled:active, .dark-theme &.disabled:focus, .dark-theme &.disabled:hover, .dark-theme &[disabled], .dark-theme &[disabled].active, .dark-theme &[disabled]:active, .dark-theme &[disabled]:focus, .dark-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #d86868;
+			border-color: #d86868;
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+		/*/ Touch /*/
+		.light-theme .touch &:not([disabled]):focus, .light-theme .touch &:not([disabled]):hover, .light-theme .touch &:not([disabled]):visited {
+			color: #fff;
+			background-color: #d86868;
+			border-color: #d86868;
+		}
+		.dark-theme .touch &:not([disabled]):focus, .dark-theme .touch &:not([disabled]):hover, .dark-theme .touch &:not([disabled]):visited {
+			color: #fff;
+			background-color: #d86868;
+			border-color: #d86868;
+		}
+		.light-theme .touch &:not([disabled]).active, .light-theme .touch &:not([disabled]):active {
+			color: #fff;
+			background-color: #ac1e2d;
+			border-color: #ac1e2d;
+		}
+		.dark-theme .touch &:not([disabled]).active, .dark-theme .touch &:not([disabled]):active {
+			color: #fff;
+			background-color: #ac1e2d;
+			border-color: #ac1e2d;
 		}
 	}
 }
