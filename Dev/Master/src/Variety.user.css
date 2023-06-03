@@ -17,8 +17,8 @@
 @-moz-document domain("www.roblox.com") {
 	/*/=={ Buttons }==/*/
 	/*/== Green Buttons ==/*/
-	.light-theme, .dark-theme {
-		.btn-cta-lg, .btn-growth-lg, .btn-primary-lg, .btn-common-play-game-lg, a.btn-common-play-game-lg, button.btn-common-play-game-lg, .btn-branded-robux-white-lg, a.btn-branded-robux-white-lg, button.btn-branded-robux-white-lg {
+	.btn-cta-lg, .btn-growth-lg, .btn-primary-lg, .btn-common-play-game-lg, a.btn-common-play-game-lg, button.btn-common-play-game-lg, .btn-branded-robux-white-lg, a.btn-branded-robux-white-lg, button.btn-branded-robux-white-lg {
+		.light-theme & {
 			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
 				-webkit-transition: box-shadow 200ms ease-in-out;
 				-o-transition: box-shadow 200ms ease-in-out;
@@ -32,92 +32,843 @@
 			}
 			border-radius: 5px;
 		}
-		.btn-cta-md, .btn-growth-md, .btn-primary-md, .request-error-page-content .action-buttons .btn-primary-md:link, #download-the-app-container .primary-link {
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
 			background-color: #02b757;
 			border: 1px solid #02b757;
 			color: #fff;
-			font-size: 18px;
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+	}
+	.btn-cta-md, .btn-growth-md, .btn-primary-md, .request-error-page-content .action-buttons .btn-primary-md:link, #download-the-app-container .primary-link {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
 			border-radius: 3px;
 		}
-		.btn-cta-sm, .btn-growth-sm, .btn-primary-sm {
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
 			background-color: #02b757;
 			border: 1px solid #02b757;
 			color: #fff;
-			font-size: 16px;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
 			border-radius: 3px;
 		}
-		.btn-cta-xs, .btn-growth-xs, .btn-primary-xs {
+	}
+	.btn-cta-sm, .btn-growth-sm, .btn-primary-sm {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
 			background-color: #02b757;
 			border: 1px solid #02b757;
 			color: #fff;
-			font-size: 14px;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-cta-xs, .btn-growth-xs, .btn-primary-xs {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #02b757;
+			border: 1px solid #02b757;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
 			border-radius: 3px;
 		}
 	}
 	.btn-cta-lg, .btn-cta-md, .btn-cta-sm, .btn-cta-xs, .btn-growth-lg, .btn-growth-md, .btn-growth-sm, .btn-growth-xs, .btn-primary-lg, .btn-primary-md, .btn-primary-sm, .btn-primary-xs, .btn-common-play-game-lg, .btn-branded-robux-white-lg, .request-error-page-content .action-buttons .btn-primary-md, #download-the-app-container .primary-link {
-		.light-theme & {
-			&:focus, &:hover {
-				background-color: #3fc679;
-				& when (@BoxShadows = 1) {
-					box-shadow: 0 1px 3px rgba(150,150,150,0.74);
-				}
-				border-color: #3fc679;
-				color: #fff;
-				cursor: pointer;
+		.light-theme &:focus, .light-theme &:hover {
+			background-color: #3fc679;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #3fc679;
+			color: #fff;
+			cursor: pointer;
+		}
+		.dark-theme &:focus, .dark-theme &:hover {
+			background-color: #3fc679;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(105,105,105,0.74);
+			}
+			border-color: #3fc679;
+			color: #fff;
+			cursor: pointer;
+		}
+		.light-theme &.active, .light-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #3fc679;
+			color: #fff;
+		}
+		.dark-theme &.active, .dark-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #3fc679;
+			color: #fff;
+		}
+		/*/ Disabled /*/
+		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #a3e2bd;
+			border-color: #a3e2bd;
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
 			}
 		}
-		.dark-theme & {
-			&:focus, &:hover {
-				background-color: #3fc679;
-				& when (@BoxShadows = 1) {
-					box-shadow: 0 1px 3px rgba(105,105,105,0.74);
-				}
-				border-color: #3fc679;
-				color: #fff;
-				cursor: pointer;
+		.dark-theme &.disabled, .dark-theme &.disabled.active, .dark-theme &.disabled:active, .dark-theme &.disabled:focus, .dark-theme &.disabled:hover, .dark-theme &[disabled], .dark-theme &[disabled].active, .dark-theme &[disabled]:active, .dark-theme &[disabled]:focus, .dark-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #a3e2bd;
+			border-color: #a3e2bd;
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
 			}
-		}
-		.light-theme &, .dark-theme & {
-			&.active, &:active {
-				& when (@BoxShadows = 1) {
-					box-shadow: none;
-				}
-				background-color: #3fc679;
-				color: #fff;
-			}
-			/*/ Disabled /*/
-			&.disabled, &.disabled.active, &.disable:active, &.disabled:focus, &.disabled:hover, &[disabled], &[disabled].active, &[disabled]:active, &[disabled]:focus, &[disabled]:hover {
-				opacity: .5;
-				background-color: #a3e2bd;
-				border-color: #a3e2bd;
-				color: #fff;
-				& when (@LegacyNextStyleGuideButtons = 0) {
-					cursor: not-allowed;
-					pointer-events: none;
-				}
-				& when (@LegacyNextStyleGuideButtons = 1) {
-					cursor: default;
-					pointer-events: all;
-				}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
 			}
 		}
 		/*/ Touch /*/
-		.light-theme .touch &, .dark-theme .touch & {
-			&:not([disabled]):focus, &:not([disabled]):hover, &:not([disabled]):visited {
-				color: #fff;
-				background-color: #02b757;
-				border-color: #02b757;
+		.light-theme .touch &:not([disabled]):focus, .light-theme .touch &:not([disabled]):hover, .light-theme .touch &:not([disabled]):visited {
+			color: #fff;
+			background-color: #02b757;
+			border-color: #02b757;
+		}
+		.dark-theme .touch &:not([disabled]):focus, .dark-theme .touch &:not([disabled]):hover, .dark-theme .touch &:not([disabled]):visited {
+			color: #fff;
+			background-color: #02b757;
+			border-color: #02b757;
+		}
+		.light-theme .touch &:not([disabled]).active, .light-theme .touch &:not([disabled]):active {
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #118237;
+				border-color: #118237;
 			}
-			&:not([disabled]).active, &:not([disabled]):active {
-				color: #fff;
-				& when (@LegacyNextStyleGuideButtons = 0) {
-					background-color: #118237;
-					border-color: #118237;
-				}
-				& when (@LegacyNextStyleGuideButtons = 1) {
-					background-color: #01853f;
-					border-color: #017a3a;
-				}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #01853f;
+				border-color: #017a3a;
+			}
+		}
+		.dark-theme .touch &:not([disabled]).active, .dark-theme .touch &:not([disabled]):active {
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #118237;
+				border-color: #118237;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #01853f;
+				border-color: #017a3a;
+			}
+		}
+	}
+	/*/== Blue Buttons ==/*/
+	.btn-secondary-lg {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+	}
+	.btn-secondary-md, .rbx-upgrade-now .btn-secondary-md, .avatar-card-btns .accept-friend {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-secondary-sm, .details-btns-fixed .btn-secondary-sm {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-secondary-xs {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #00a2ff;
+			border: 1px solid #00a2ff;
+			color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-secondary-lg, .btn-secondary-md, .btn-secondary-sm, .btn-secondary-xs, .details-btns-fixed .btn-secondary-sm, .rbx-upgrade-now .btn-secondary-md, .avatar-card-btns .accept-friend {
+		.light-theme &:focus, .light-theme &:hover {
+			background-color: #32b5ff;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #32b5ff;
+			color: #fff;
+			cursor: pointer;
+		}
+		.dark-theme &:focus, .dark-theme &:hover {
+			background-color: #32b5ff;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #32b5ff;
+			color: #fff;
+			cursor: pointer;
+		}
+		.light-theme &.active, .light-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #32b5ff;
+			color: #fff;
+		}
+		/*/ Disabled /*/
+		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #99daff;
+			border-color: #99daff;
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+		.dark-theme &.disabled, .dark-theme &.disabled.active, .dark-theme &.disabled:active, .dark-theme &.disabled:focus, .dark-theme &.disabled:hover, .dark-theme &[disabled], .dark-theme &[disabled].active, .dark-theme &[disabled]:active, .dark-theme &[disabled]:focus, .dark-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #99daff;
+			border-color: #99daff;
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+		/*/ Touch /*/
+		.light-theme .touch &:not([disabled]):focus, .light-theme .touch &:not([disabled]):hover, .light-theme .touch &:not([disabled]):visited {
+			color: #fff;
+			background-color: #00a2ff;
+			border-color: #00a2ff;
+		}
+		.dark-theme .touch &:not([disabled]):focus, .dark-theme .touch &:not([disabled]):hover, .dark-theme .touch &:not([disabled]):visited {
+			color: #fff;
+			background-color: #00a2ff;
+			border-color: #00a2ff;
+		}
+		.light-theme .touch &:not([disabled]).active, .light-theme .touch &:not([disabled]):active {
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #0074bd;
+				border-color: #0074bd;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #0082cc;
+				border-color: #007bc2;
+			}
+		}
+		.dark-theme .touch &:not([disabled]).active, .dark-theme .touch &:not([disabled]):active {
+			color: #fff;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				background-color: #0074bd;
+				border-color: #0074bd;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				background-color: #0082cc;
+				border-color: #007bc2;
+			}
+		}
+	}
+	/*/== White Buttons ==/*/
+	.btn-control-lg, .btn-generic-edit-lg, a.btn-generic-edit-lg, button.btn-generic-edit-lg {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #fff;
+			border: 1px solid #b8b8b8;
+			color: #191919;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #000;
+			border: 1px solid #474747;
+			color: #e6e6e6;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+			transition: all,0.2s,ease-in-out;
+		}
+		&, &:hover, &:focus, &:active {
+			font-size: 21px;
+		}
+		border-radius: 5px;
+		}
+	}
+	.btn-buy-lg {
+		.light-theme & {
+			background-color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #b8b8b8;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+		.dark-theme & {
+			background-color: #000;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #474747;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 21px;
+			}
+			border-radius: 5px;
+		}
+	}
+	.btn-control-md, .btn-generic-edit-md, .btn-generic-edit-md, button.btn-generic-edit-md, .profile-header .header-caption .header-details .details-actions .btn-primary-md, .profile-header .header-caption .header-details .details-actions .btn-alert-md, .avatar-card-btns .ignore-friend {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #fff;
+			border: 1px solid #b8b8b8;
+			color: #191919;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #000;
+			border: 1px solid #474747;
+			color: #e6e6e6;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-buy-md {
+		.light-theme & {
+			background-color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #b8b8b8;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			background-color: #000;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #474747;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 18px;
+			}
+		border-radius: 3px;
+		}
+	}
+	.btn-control-sm, .btn-generic-edit-sm, a.btn-generic-edit-sm, button.btn-generic-edit-sm, .btn-generic-locked-sm,a.btn-generic-locked-sm,button.btn-generic-locked-sm, .btn-generic-unlocked-sm,a.btn-generic-unlocked-sm,button.btn-generic-unlocked-sm, .btn-generic-back-sm, .btn-generic-next-sm {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #fff;
+			border: 1px solid #b8b8b8;
+			color: #191919;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+			-webkit-transition: box-shadow 200ms ease-in-out;
+			-o-transition: box-shadow 200ms ease-in-out;
+			transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #000;
+			border: 1px solid #474747;
+			color: #e6e6e6;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-buy-sm {
+		.light-theme & {
+			background-color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #b8b8b8;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			background-color: #000;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #474747;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active {
+				font-size: 16px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-control-xs, .btn-generic-edit-xs, a.btn-generic-edit-xs, button.btn-generic-edit-xs {
+		.light-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #fff;
+			border: 1px solid #b8b8b8;
+			color: #191919;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			background-color: #000;
+			border: 1px solid #474747;
+			color: #e6e6e6;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 0) {
+				transition: all,0.2s,ease-in-out;
+			}
+			&, &:hover, &:focus, &:active { 
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-buy-lg, .btn-buy-md, .btn-buy-sm, .btn-buy-xs {
+		.light-theme & {
+			&, &:link {
+				color: #757575;
+			}
+		}
+		.darkt-theme & {
+			&, &:link {
+				color: #8A8A8A;
+			}
+		}
+	}
+	.btn-buy-xs {
+		.light-theme & {
+			background-color: #fff;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #b8b8b8;
+			&, &:hover, &:focus, &:active {
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+		.dark-theme & {
+			background-color: #000;
+			& when (@BoxShadows = 1) and (@TransitionalAnimations = 1) {
+				-webkit-transition: box-shadow 200ms ease-in-out;
+				-o-transition: box-shadow 200ms ease-in-out;
+				transition: box-shadow 200ms ease-in-out;
+			}
+			border: 1px solid #474747;
+			&, &:hover, &:focus, &:active {
+				font-size: 14px;
+			}
+			border-radius: 3px;
+		}
+	}
+	.btn-control-lg, .btn-control-md, .btn-control-sm, .btn-control-xs, .btn-generic-edit-lg, .btn-generic-edit-md, .btn-generic-edit-sm, .btn-generic-edit-xs, .profile-header .header-caption .header-details .details-actions .btn-primary-md, .profile-header .header-caption .header-details .details-actions .btn-alert-md, .btn-generic-locked-sm,a.btn-generic-locked-sm,button.btn-generic-locked-sm, .btn-generic-unlocked-sm,a.btn-generic-unlocked-sm,button.btn-generic-unlocked-sm, .avatar-card-btns .ignore-friend, .btn-generic-back-sm, a.btn-generic-back-sm, button.btn-generic-back-sm, .btn-generic-next-sm, a.btn-generic-next-sm, button.btn-generic-next-sm {
+		.light-theme &:focus, .light-theme &:hover {
+			background-color: #fff;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #b8b8b8;
+			color: #191919;
+			cursor: pointer;
+		}
+		.dark-theme &:focus, .dark-theme &:hover {
+			background-color: #000;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(105,105,105,0.74);
+			}
+			border-color: #474747;
+			color: #e6e6e6;
+			cursor: pointer;
+		}
+		.light-theme &.active, .light-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #fff;
+			color: #191919;
+		}
+		.dark-theme &.active, .dark-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #000;
+			color: #e6e6e6;
+		}
+	}
+	.btn-buy-lg, .btn-buy-md, .btn-buy-sm, .btn-buy-xs {
+		.light-theme &:focus, .light-theme &:hover {
+			background-color: #3fc679;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(150,150,150,0.74);
+			}
+			border-color: #3fc679;
+			color: #fff;
+			cursor: pointer;
+		}
+		.dark-theme &:focus, .dark-theme &:hover {
+			background-color: #3fc679;
+			& when (@BoxShadows = 1) {
+				box-shadow: 0 1px 3px rgba(105,105,105,0.74);
+			}
+			border-color: #3fc679;
+			color: #fff;
+			cursor: pointer;
+		}
+		.light-theme &.active, .light-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #3fc679;
+			color: #fff;
+		}
+		.dark-theme &.active, .dark-theme &:active {
+			& when (@BoxShadows = 1) {
+				box-shadow: none;
+			}
+			background-color: #3fc679;
+			color: #fff;
+		}
+	}
+	.btn-control-lg, .btn-control-md, .btn-control-sm, .btn-control-xs, .btn-buy-lg, .btn-buy-md, .btn-buy-sm, .btn-buy-xs, .profile-header .header-caption .header-details .details-actions .btn-primary-md, .profile-header .header-caption .header-details .details-actions .btn-alert-md, .dark-theme .btn-control-lg.disabled, .avatar-card-btns .ignore-friend {
+		/*/ Disabled /*/
+		.light-theme &.disabled, .light-theme &.disabled.active, .light-theme &.disabled:active, .light-theme &.disabled:focus, .light-theme &.disabled:hover, .light-theme &[disabled], .light-theme &[disabled].active, .light-theme &[disabled]:active, .light-theme &[disabled]:focus, .light-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #fff;
+			border-color: #b8b8b8;
+			color: #b8b8b8;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
+			}
+		}
+		.dark-theme &.disabled, .dark-theme &.disabled.active, .dark-theme &.disabled:active, .dark-theme &.disabled:focus, .dark-theme &.disabled:hover, .dark-theme &[disabled], .dark-theme &[disabled].active, .dark-theme &[disabled]:active, .dark-theme &[disabled]:focus, .dark-theme &[disabled]:hover {
+			opacity: .5;
+			background-color: #000;
+			border-color: #474747;
+			color: #474747;
+			& when (@LegacyNextStyleGuideButtons = 0) {
+				cursor: not-allowed;
+				pointer-events: none;
+			}
+			& when (@LegacyNextStyleGuideButtons = 1) {
+				cursor: default;
+				pointer-events: all;
 			}
 		}
 	}
