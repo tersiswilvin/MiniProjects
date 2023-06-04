@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Project Variety
-@version      20230603.1.2
+@version      20230603.1.3
 @namespace    userstyles.world/user/tersiswilvin
 @description  V3.0 Buttons
 @author       TersisWilvin
@@ -1205,6 +1205,39 @@
 			color: #fff;
 			background-color: #ac1e2d;
 			border-color: #ac1e2d;
+		}
+	}
+	/*/== Fixes ==/*/
+	.dark-theme .btn-primary-md:visited {
+		color: #fff;
+	}
+	.gotham-font .game-item-container .game-btn, .gotham-font .game-list-container .game-btn {
+		&, &:hover, &:focus, &:active {
+			font-size: 16px
+		}
+	}
+	.rbx-upgrade-now .btn-secondary-md {
+		.light-theme &:visited, .light-theme &:link, .dark-theme &:visited, .dark-theme &:link {
+			color: #fff
+		}
+	}
+	.profile-avatar-left .enable-three-dee {
+		&, &:hover, &:focus, &:active {
+			font-size: 18px;
+		}
+		border-radius: 3px;
+	}
+	.avatar-thumbnail .toggle-three-dee {
+		&, &:hover, &:focus, &:active {
+			font-size: 18px;
+		}
+	}
+	.btn-generic-locked-sm:link,a.btn-generic-locked-sm:link,button.btn-generic-locked-sm:link, .btn-generic-unlocked-sm:link,a.btn-generic-unlocked-sm:link,button.btn-generic-unlocked-sm:link, .btn-generic-locked-sm:visited,a.btn-generic-locked-sm:visited,button.btn-generic-locked-sm:visited, .btn-generic-unlocked-sm:visited,a.btn-generic-unlocked-sm:visited,button.btn-generic-unlocked-sm:visited {
+		.light-theme & {
+			color: #191919
+		}
+		.dark-theme & {
+			color: #e6e6e6
 		}
 	}
 }
