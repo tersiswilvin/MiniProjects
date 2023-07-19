@@ -14,8 +14,11 @@
 	background-image: url(https://images.rbxcdn.com/d935c70bed81f91538cca4b19eebd319-common_dark.svg)
 }
 
-/*/== Sidebar ==/*/
+.btn-uiblox-common-common-notification-bell-md.disabled:hover span[class^=icon-], .btn-uiblox-common-common-notification-bell-md.disabled span[class^=icon-], .btn-uiblox-common-common-notification-bell-md[disabled]:hover span[class^=icon-], .btn-uiblox-common-common-notification-bell-md[disabled] span[class^=icon-], .btn-uiblox-common-common-notification-bell-md span[class^=icon-], a.btn-uiblox-common-common-notification-bell-md.disabled:hover span[class^=icon-], a.btn-uiblox-common-common-notification-bell-md.disabled span[class^=icon-], a.btn-uiblox-common-common-notification-bell-md[disabled]:hover span[class^=icon-], a.btn-uiblox-common-common-notification-bell-md[disabled] span[class^=icon-], a.btn-uiblox-common-common-notification-bell-md span[class^=icon-], button.btn-uiblox-common-common-notification-bell-md.disabled:hover span[class^=icon-], button.btn-uiblox-common-common-notification-bell-md.disabled span[class^=icon-], button.btn-uiblox-common-common-notification-bell-md[disabled]:hover span[class^=icon-], button.btn-uiblox-common-common-notification-bell-md[disabled] span[class^=icon-], button.btn-uiblox-common-common-notification-bell-md span[class^=icon-] {
+    background-position: 0 -56px;
+}
 
+/*/== Sidebar ==/*/
 .rbx-left-col li a:not(#nav-premium):not(:hover) span[class^=icon], .rbx-left-col li button:not(#nav-premium):not(:hover) span[class^=icon], a:not(#nav-premium):not(:hover) .icon-nav-charactercustomizer, button:not(#nav-premium):not(:hover) .icon-nav-charactercustomizer {
 	opacity: .65;
 }
@@ -70,6 +73,10 @@
 
 /*/=={ Others }==/*/
 
+.icon-common-notification-bell {
+    background-position: 0 -56px;
+}
+
 .player-search-container .player-search-page .search-result .player-item .avatar-card-container .avatar-card-content .avatar-card-caption .avatar-status-container .icon-nav-group, .player-search-container .player-search-page .search-result .responsive-card .avatar-card-container .avatar-card-content .avatar-card-caption .avatar-status-container .icon-nav-group {
     background-position: 0 -153px;
 }
@@ -121,48 +128,6 @@
 .dark-theme [data-rblx-verified-badge-icon] img {
 	filter: grayscale(100%) brightness(1.5)
 }
-#navigation-container.ixp-marketplace-rename-control ~ .container-main .avatar-editor-header .catalog-header div:nth-child(n+1), #navigation-container.ixp-marketplace-rename-control ~ .container-main .container-header .header-content .get-more-text {
-    font-size: 0;
-}
-#navigation-container.ixp-marketplace-rename-control ~ .container-main .avatar-editor-header .catalog-header div:nth-child(n+1):after {
-    content: 'Explore the marketplace to find more clothes!';
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.4em;
-	cursor: text;
-}
-#navigation-container.ixp-marketplace-rename-control ~ .container-main .container-header .header-content .get-more-text {
-    white-space: normal;
-}
-#navigation-container.ixp-marketplace-rename-control ~ .container-main .container-header .header-content .get-more-text:after {
-    content: 'Explore the marketplace to find more Accessories!';
-    font-size: 12px;
-    font-weight: 400;
-	line-height: 1.4em;
-    float: right;
-    display: block;
-    width: 205px;
-    text-align: right;
-    white-space: break-spaces;
-	cursor: text;
-}
-#navigation-container:not(.ixp-marketplace-rename-treatment) .ixp-marketplace-renamed-control {
-    display: none;
-}
-#navigation-container:not(.ixp-marketplace-rename-treatment) .ixp-marketplace-renamed-treatment {
-    display: block;
-}
-#navigation-container.ixp-marketplace-rename-control ~ .container-main .catalog-container .search-bars h1 a {
-    font-size: 0px;
-	height: 39px;
-    display: block;
-}
-#navigation-container.ixp-marketplace-rename-control ~ .container-main .catalog-container .search-bars h1 a:after {
-    content: 'Marketplace';
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 1.4em;
-}
 .rbx-header .rbx-navbar li a[href="/develop"] {
 	font-size: 0;
 	height: 34.39px;
@@ -194,10 +159,6 @@
 	}
 	.rbx-header .rbx-navbar li a[href="/develop"]:after {
 		line-height: 16px;
-	}
-	#navigation-container.ixp-marketplace-rename-control ~ .container-main .avatar-editor-header .catalog-header div:nth-child(n+1):after {
-		font-size: 12px;
-		font-weight: 400;
 	}
 }
 
@@ -731,18 +692,10 @@ body[data-internal-page-name="Profile"] .rbx-divider {
     color: rgba(255, 255, 255, 0.87);
 }
 .dark-theme .notification, .dark-theme .notification-blue, .dark-theme .notification-red {
-	display: flex;
-    flex-flow: row wrap;
-    -webkit-box-pack: center;
-    place-content: center;
-    -webkit-box-align: center;
-    align-items: center;
     font-weight: 500;
     font-size: 0.75rem;
     min-width: 20px;
     line-height: 1;
-    padding: 6px 0;
-    height: 20px;
     border-radius: 10px;
     background-color: rgb(237, 237, 237);
     color: rgba(0, 0, 0, 0.87);
@@ -821,6 +774,45 @@ body[data-internal-page-name="Profile"] .rbx-divider {
 }
 .dark-theme .slide-switcher .slide-item-container .slide-item-container-right .slide-item-description {
     border-color: #656668;
+}
+
+.signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle.icon-password-show, .signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle.icon-password-hide {
+  top: 35px;
+}
+.signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle.icon-password-show-v2, .signup-or-log-in .signup-container .signup-input-area .password-visibility-toggle.icon-password-hide-v2 {
+  top: 40px;
+  right: 12px;
+  height: 16px;
+  width: 16px;
+}
+
+.light-theme #session-management .show-more {
+    color: #393b3d;
+}
+.dark-theme #session-management .show-more {
+    color: #fff;
+}
+
+.content .page-content .form-group.gender-container #MaleButton.gender-button {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-right: 0;
+}
+.content .page-content .form-group.gender-container #MaleButton.gender-button:after {
+	content: '';
+	background: #bdbebe;
+	width: 1px;
+	height: 55%;
+	top: 55%;
+	left: 41%;
+	transform: translate(0, -75%);
+	display: inline-block;
+	position: relative
+}
+.content .page-content .form-group.gender-container #FemaleButton.gender-button {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-left: 0;
 }
 
 @media (max-width: 767px) {
