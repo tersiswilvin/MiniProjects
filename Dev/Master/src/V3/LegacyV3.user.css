@@ -1,0 +1,68 @@
+/* ==UserStyle==
+@name           Legacy V3
+@namespace      github.com/tersiswilvi
+@version        20260217.1.0
+@description    Restores the classic Vorapis 2013 look.
+@author         TersisWilvin
+@preprocessor   less
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+	.vdbg-titlebar-name {
+		text-transform: lowercase
+	}
+	.vordebugger:not(.expanded) {
+		min-width: 350px;
+		.errorcount-state {
+			top: -1px;
+		}
+		.vdbg-titlebar-name {
+			display: inline;
+		}
+	}
+	.vdbg-content .ddd-build-info, .logview-unload-v3, .preset-buttons, .vor_smartnav .smartadd:nth-child(3) .smartadd_title, .reset-vlturbo, .internal-setting-description {
+		display: none
+	}
+	.vdbg-titlebar-action.close {
+		display: inline-block !important
+	}
+	.expanded .oz-sprite-loader-arrow-down {
+		transform: rotate(180deg);
+	}
+	.share-service-icon.share-service-icon-whatsapp {
+		background: no-repeat url(//s.ytimg.com/yts/imgbin/www-sharing-vflsuIoGD.png) 0 -1842px;
+	}
+	#alerts {
+		position: relative;
+		&:before {
+			content: "Welcome to Closed Beta Test! Find more information h̲e̲r̲e̲. Closing this message will result in its infinite absence.";
+			background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAACdklEQVQ4T2NkIAyEgUrYgfgNEP/Cp5wRjyQbUM43NjbWQFJSknPdunVP7ty5sw0odguXHpyGpaWlabS2tu4SERGRhWles2bNhNDQ0EKSDTtx4kSwubn5GmSNr169uiwuLq5HyDBeoAI1IP4M8wbIMDMzMwzDJCQkYIZh6AF5k83FxSWvqKjI/uHDh28zMzN3AsXOPnjwQEVWVnYrsivevn17QUxMzA4oZuzo6GhZWlpqBdUzGaSH0c3NzWrjxk27WVlZuUAaP3/+/HbFiuVbVq1adXP37j1tyIZdunTxWHFx8Zbe3l4fPT19K5jcnj27N3p4eAQw7t+/f4qNrW024RSCW8Xv37+/cXFyyjE+evRoAzDq/SkxDKSXhYXFkPHXr18FQHY/hYZ9ZGNjEwCnsz9//gT8+/cP5LqA////CxBrMCMj4wWgvoVAPRs4OTkfYCTaffv2Zeno6DTx8fGBshFWcO7cuS3A9FakrKx8G1kBumFSU6ZMaUtOTo7H5zpgEnns7u5ec/Xq1UW4DBMuKSkpbWpqKifGmyADgekwDqj2AEw93GW5ubl5QIPagQEJTm8w8PfvX1Cu2M/MzOyHbsnFixePWVlZhQLFn4Hk4Ibdv//goqioKEa+Y2JiLvz58/sCoNLDwIStg27g5cuX/C0tLTehGPb69butHBxsXsiK////twkYEeA0+OXLF4P//xnOoxvGyMhgyMPDcwHFMJDif///7wcKgpMGMMof/f/3T19QUPADzICP374VMP79i0iTTEwL+Li5EzHCDCTw/v17ASYm9gQGhr8CzMyMG2A2Irvm48dvwET+F6iO4QAvLy888EFqAHYY61QO7GaIAAAAAElFTkSuQmCC) no-repeat 10px 6px, #2793e6;
+			border: 1px solid;
+			border-color: #3a78ab;
+			color: #fff;
+			font-size: 13px;
+			font-weight: bold;
+			padding: 10px 10px 10px 50px;
+			text-shadow: 0 0 1px rgba(0, 0, 0, .45);
+			position: relative;
+			margin: 5px 0;
+			overflow: hidden;
+			display: block;
+			cursor: text
+		}
+		&:after {
+			content: "";
+			margin: 6px;
+			border: none;
+			overflow: hidden;
+			cursor: pointer;
+			background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vflN9SxOc.png) -33px -414px;
+			width: 22px;
+			height: 22px !important;
+			position: absolute;
+			top: 0;
+			right: 0;
+			display: inline-block
+		}
+	}
+}
