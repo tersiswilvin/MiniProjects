@@ -1,0 +1,75 @@
+/* ==UserStyle==
+@name           V3 Sponsorblock button fix
+@namespace      github.com/tersiswilvin
+@version        20260323-00.1.0.0
+@description    Fixes sponsorblock buttons by converting player controls into flexbutton buttons.
+@author         TersisWilvin
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+	.html5-player-chrome {
+		display: flex
+	}
+	.ytp-button-play, .ytp-button-pause, .ytp-button-replay, .ytp-button-stop {
+		order: 1
+	}
+	.ytp-button-prev {
+		order: 2
+	}
+	.ytp-button-next {
+		order: 3
+	}
+	.ytp-volume-hover-area {
+		order: 4;
+		margin-right: auto
+	}
+	.ytp-button-fullscreen-enter, .ytp-button-fullscreen-exit {
+		order: 100
+	}
+	.ytp-size-toggle-small, .ytp-size-toggle-large {
+		order: 99
+	}
+	.ytp-button-watch-on-youtube {
+		order: 98
+	}
+	.ytp-settings-button, .ytp-settings-button-active {
+		order: 97
+	}
+	.ytp-button-watch-later {
+		order: 96
+	}
+	.ytp-subtitles-button, .ytp-subtitles-button-active {
+		order: 95
+	}
+	/* if 3D button still existed, order: 94 would be in its place */
+	.ytp-button-playlist {
+		order: 93
+	}
+	/* Fixes for sponsorbock buttons */
+	#startSegmentButton {
+		height: 100%;
+		width: 30px;
+		order: 92;
+	}
+	#cancelSegmentButton {
+		height: 100%;
+		width: 30px;
+		order: 91;
+	}
+	#deleteButton {
+		height: 100%;
+		width: 30px;
+		order: 90;
+	}
+	#submitButton {
+		height: 100%;
+		width: 30px;
+		order: 89;
+	}
+	#infoButton {
+		height: 100%;
+		width: 30px;
+		order: 88;
+		display: inline-block; /* needed for the animation */
+	}
+}
