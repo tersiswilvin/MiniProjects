@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           V3 Sponsorblock button fix
 @namespace      github.com/tersiswilvin
-@version        20260323-00.1.0.0
-@description    Fixes sponsorblock buttons by converting player controls into flexbox buttons.
+@version        20260323-00.1.0.1
+@description    Fixes sponsorblock buttons by converting player controls into flexbutton buttons.
 @author         TersisWilvin
 @updateURL      https://github.com/tersiswilvin/MiniProjects/raw/refs/heads/Release/Dev/Master/src/V3/V3_Sponsorblock_button_fix.user.css
 ==/UserStyle== */
@@ -36,10 +36,10 @@
 	.ytp-settings-button, .ytp-settings-button-active {
 		order: 97
 	}
-	.ytp-button-watch-later {
+	.ytp-subtitles-button, .ytp-subtitles-button-active {
 		order: 96
 	}
-	.ytp-subtitles-button, .ytp-subtitles-button-active {
+	.ytp-button-watch-later {
 		order: 95
 	}
 	/* if 3D button still existed, order: 94 would be in its place */
