@@ -4,6 +4,7 @@
 @version        20260323-00.1.0.0
 @description    Fixes sponsorblock buttons by converting player controls into flexbutton buttons.
 @author         TersisWilvin
+@updateURL      https://github.com/tersiswilvin/MiniProjects/raw/refs/heads/Release/Dev/Master/src/V3/V3_Sponsorblock_button_fix.user.css
 ==/UserStyle== */
 
 @-moz-document domain("www.youtube.com") {
